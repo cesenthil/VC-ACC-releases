@@ -1,11 +1,11 @@
 {
-  "version": "0.1.1",
-  "notes": "In-app updater test build",
+  "version": "0.1.2",
+  "notes": "Updater fix: lock-based swap",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.1/app.asar",
-    "sha256": "376aedaeea6c95c48342c140fcfd23864d7fa313cc0f8209f85eeba9f2f56f81",
-    "bytes": 24117690
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.2/app.asar",
+    "sha256": "c23b247706e7d0cd41ea12d32ab670c72acd3e5f0e6e990cc5533b274cb0e338",
+    "bytes": 24118749
   },
   "fullBuildUrl": ""
 }
