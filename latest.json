@@ -1,11 +1,11 @@
 {
-  "version": "0.1.21",
-  "notes": "Invoice View (read-only): hide the field clear (✕) buttons so they no longer overlap the status pill and the split button. They return when you click Edit.",
+  "version": "0.1.22",
+  "notes": "Split lot: when it opens, the first price field gets the cursor at the end instead of the whole value being selected (that blue select-all highlight is what looked like a flicker and would wipe the price on the first keystroke).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.21/app.asar",
-    "sha256": "2de3d87c72b284ddb53b97ad55b2679818cc40c24608ce8a0efc360b2c5dd0c3",
-    "bytes": 24305643
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.22/app.asar",
+    "sha256": "9fbce0bbfc74780d04e5b002637b9f2db67333ec6d8a25dd89011bcb7d2b5489",
+    "bytes": 24307075
   },
   "fullBuildUrl": ""
 }
