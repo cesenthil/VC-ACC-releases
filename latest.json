@@ -1,11 +1,11 @@
 {
-  "version": "0.1.15",
-  "notes": "Invoice menu order: New · View / Update · Drafts · Mark Destroyed.",
+  "version": "0.1.16",
+  "notes": "Transaction entry screens no longer list Dormant sellers/buyers in the name pickers (Invoice, Charges, Loan, Suspense, Collections, Bonus, Splits). Reports, Address Book, and the Invoice Register still show them. An invoice you're editing keeps its existing party even if now dormant.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.15/app.asar",
-    "sha256": "2442239366f7de509adcdb7757e3c78894b856096949b1416d248b169743c385",
-    "bytes": 24287389
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.16/app.asar",
+    "sha256": "8fda4878d72200ea9dc075f6fcf2a55493f41ae67ed23568eb3b6709c44faf4e",
+    "bytes": 24289329
   },
   "fullBuildUrl": ""
 }
