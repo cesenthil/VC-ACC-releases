@@ -1,11 +1,11 @@
 {
-  "version": "0.1.10",
-  "notes": "Save Successful confirmation popup on every save. Charges Entry: two menus (Charges Entry + View/Update Charges), opens in view with an Edit button, narrower columns, and a clean reset after saving (fixes the blank-seller state).",
+  "version": "0.1.11",
+  "notes": "Invoice: Save goes straight to the confirmation (no extra popup); issued screen has only New Invoice and jumps focus to the seller; Bag/Kattu and single/shared toggles now use Up/Down arrows so Enter moves to the next field; Payable accepts decimals to fine-tune rounding; 'Add Kambai' label; modals now frost the background.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.10/app.asar",
-    "sha256": "09a5cce51f871c1de2d63c158efb09aac3e328ab21302340ed4b60d17e2d9713",
-    "bytes": 24272973
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.11/app.asar",
+    "sha256": "1c2a846ffca025c279917be1cdc7a5adb39ab572123cd07dc523577a74b78927",
+    "bytes": 24265795
   },
   "fullBuildUrl": ""
 }
