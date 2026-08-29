@@ -1,11 +1,11 @@
 {
-  "version": "0.1.22",
-  "notes": "Split lot: when it opens, the first price field gets the cursor at the end instead of the whole value being selected (that blue select-all highlight is what looked like a flicker and would wipe the price on the first keystroke).",
+  "version": "0.1.23",
+  "notes": "Seller/Buyer name lookup now matches from the START of the name (type 'Ala' → names beginning with Ala), not the middle, and never matches by location.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.22/app.asar",
-    "sha256": "9fbce0bbfc74780d04e5b002637b9f2db67333ec6d8a25dd89011bcb7d2b5489",
-    "bytes": 24307075
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.23/app.asar",
+    "sha256": "2f5198e75e17ff1a492e0c06ad9f60800f2d2815714299a7d4f2b7d34039cab8",
+    "bytes": 24307545
   },
   "fullBuildUrl": ""
 }
