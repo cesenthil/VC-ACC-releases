@@ -1,11 +1,11 @@
 {
-  "version": "0.1.5",
-  "notes": "New betel-leaf brand mark; title tidy",
+  "version": "0.1.6",
+  "notes": "Betel-leaf mark, 'V.C & Co' title, faster update check",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.5/app.asar",
-    "sha256": "5f9417810e5094a9dbd7bd19a7c0e8f88bd6262c94feb2ed081f703a4d1d492f",
-    "bytes": 24126994
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.6/app.asar",
+    "sha256": "29f0d2698fe386629dd1afb2b2f0463ea78293338c37c3238a68d1bb84528a68",
+    "bytes": 24127812
   },
   "fullBuildUrl": ""
 }
