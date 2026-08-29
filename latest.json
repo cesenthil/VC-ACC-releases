@@ -1,11 +1,11 @@
 {
-  "version": "0.1.9",
-  "notes": "Hotfix: fix blank screen when leaving Settings (Backup card effect-cleanup crash); the app can no longer be trapped open (second close always quits; new error screen with Reload). Also: collapsible Backup settings; dates shown as DD/MM/YYYY.",
+  "version": "0.1.10",
+  "notes": "Save Successful confirmation popup on every save. Charges Entry: two menus (Charges Entry + View/Update Charges), opens in view with an Edit button, narrower columns, and a clean reset after saving (fixes the blank-seller state).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.9/app.asar",
-    "sha256": "5818135956c7c7afb53b22cb1dc025345ebed6d6c68d2a71efdc8d73cf8ed345",
-    "bytes": 24263784
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.10/app.asar",
+    "sha256": "09a5cce51f871c1de2d63c158efb09aac3e328ab21302340ed4b60d17e2d9713",
+    "bytes": 24272973
   },
   "fullBuildUrl": ""
 }
