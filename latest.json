@@ -1,11 +1,11 @@
 {
-  "version": "0.1.8",
-  "notes": "Data Backup & Restore: cloud snapshots to your private repo, restore any point, on-close backup prompt, Settings token + passwords.",
+  "version": "0.1.9",
+  "notes": "Hotfix: fix blank screen when leaving Settings (Backup card effect-cleanup crash); the app can no longer be trapped open (second close always quits; new error screen with Reload). Also: collapsible Backup settings; dates shown as DD/MM/YYYY.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.8/app.asar",
-    "sha256": "b6e9ba2e8e629d2c4204408cff893654a531c4cee81c7d4384bebf14c7ba2364",
-    "bytes": 24250712
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.9/app.asar",
+    "sha256": "5818135956c7c7afb53b22cb1dc025345ebed6d6c68d2a71efdc8d73cf8ed345",
+    "bytes": 24263784
   },
   "fullBuildUrl": ""
 }
