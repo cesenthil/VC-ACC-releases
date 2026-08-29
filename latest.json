@@ -1,11 +1,11 @@
 {
-  "version": "0.1.16",
-  "notes": "Transaction entry screens no longer list Dormant sellers/buyers in the name pickers (Invoice, Charges, Loan, Suspense, Collections, Bonus, Splits). Reports, Address Book, and the Invoice Register still show them. An invoice you're editing keeps its existing party even if now dormant.",
+  "version": "0.1.17",
+  "notes": "Collections and Charges Entry now warn before you navigate away with unsaved entries (Stay & Finish / Leave & Discard) — no data lost. Buyer Splits (Pending & Update) default-sorted by invoice # with click-to-sort headers.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.16/app.asar",
-    "sha256": "8fda4878d72200ea9dc075f6fcf2a55493f41ae67ed23568eb3b6709c44faf4e",
-    "bytes": 24289329
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.17/app.asar",
+    "sha256": "bf61cb77d83f93b346ac6026b274f1775ade77674e37d28c6a5aa54d400e163c",
+    "bytes": 24298780
   },
   "fullBuildUrl": ""
 }
