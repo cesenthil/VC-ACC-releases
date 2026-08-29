@@ -1,11 +1,11 @@
 {
-  "version": "0.1.7",
-  "notes": "Version pill, Active/Dormant status toggle, trimmed Address Book columns, Add Seller/Buyer",
+  "version": "0.1.8",
+  "notes": "Data Backup & Restore: cloud snapshots to your private repo, restore any point, on-close backup prompt, Settings token + passwords.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.7/app.asar",
-    "sha256": "672b5d0c41b0cb385119f9cb17e2af15ea5619c5bec8740adeb94902301c21c7",
-    "bytes": 24133104
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.8/app.asar",
+    "sha256": "b6e9ba2e8e629d2c4204408cff893654a531c4cee81c7d4384bebf14c7ba2364",
+    "bytes": 24250712
   },
   "fullBuildUrl": ""
 }
