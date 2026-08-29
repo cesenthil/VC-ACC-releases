@@ -1,11 +1,11 @@
 {
-  "version": "0.1.13",
-  "notes": "Invoice Register (Invoice → View): default sorted by invoice # ascending; click any column header (Date, Invoice #, Seller, Location, Net) to sort, click again to reverse.",
+  "version": "0.1.14",
+  "notes": "Invoice: View and Update merged into one 'View / Update' — open an invoice to view it, then Edit / Pay / Cancel from a toolbar (paid = view-only, draft = resume). Top-right button is now Back (steps to the previous screen); the company name on the left still goes Home.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.13/app.asar",
-    "sha256": "3ca3910ccd6bb9f54622e73301f7735e647cd1acad670726139a645f365bba06",
-    "bytes": 24270057
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.14/app.asar",
+    "sha256": "e7b0c8c9f76513585cf7e7932fd76b1d5d6a77a2c80cb33d8eaccb4b89a76f4c",
+    "bytes": 24287389
   },
   "fullBuildUrl": ""
 }
