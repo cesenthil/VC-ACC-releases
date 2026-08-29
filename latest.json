@@ -1,11 +1,11 @@
 {
-  "version": "0.1.11",
-  "notes": "Invoice: Save goes straight to the confirmation (no extra popup); issued screen has only New Invoice and jumps focus to the seller; Bag/Kattu and single/shared toggles now use Up/Down arrows so Enter moves to the next field; Payable accepts decimals to fine-tune rounding; 'Add Kambai' label; modals now frost the background.",
+  "version": "0.1.12",
+  "notes": "Save Draft now shows a 'Draft saved' confirmation with New Invoice (and Continue Editing); New Invoice reliably focuses the seller box.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.11/app.asar",
-    "sha256": "1c2a846ffca025c279917be1cdc7a5adb39ab572123cd07dc523577a74b78927",
-    "bytes": 24265795
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.12/app.asar",
+    "sha256": "334fb0c60dc845ad866bf5ee9300f73a0f786f6724ec905c22ed323c1dc4ef83",
+    "bytes": 24269144
   },
   "fullBuildUrl": ""
 }
