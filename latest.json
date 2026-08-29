@@ -1,11 +1,11 @@
 {
-  "version": "0.1.20",
-  "notes": "Split lot: the total buyer amount now shows at the bottom of the Amount column (on the Balance row).",
+  "version": "0.1.21",
+  "notes": "Invoice View (read-only): hide the field clear (✕) buttons so they no longer overlap the status pill and the split button. They return when you click Edit.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.20/app.asar",
-    "sha256": "f7a2f91d15dd7ac778cb36bd647714a33f683a14745214b633f94939d778d325",
-    "bytes": 24303744
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.21/app.asar",
+    "sha256": "2de3d87c72b284ddb53b97ad55b2679818cc40c24608ce8a0efc360b2c5dd0c3",
+    "bytes": 24305643
   },
   "fullBuildUrl": ""
 }
