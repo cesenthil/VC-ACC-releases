@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
-  "notes": "Updater fix: lock-based swap",
+  "version": "0.1.3",
+  "notes": "Header flashes 'New Version Available' when an update exists; click it to jump to Settings",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.2/app.asar",
-    "sha256": "c23b247706e7d0cd41ea12d32ab670c72acd3e5f0e6e990cc5533b274cb0e338",
-    "bytes": 24118749
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.3/app.asar",
+    "sha256": "b332945022cdf2e22a6b7b10638570279df3330455be68cf46b46615a0e39339",
+    "bytes": 24123665
   },
   "fullBuildUrl": ""
 }
