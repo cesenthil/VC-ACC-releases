@@ -1,11 +1,11 @@
 {
-  "version": "0.1.29",
-  "notes": "Cash Book reworked: daily grouped view (date picker, expandable buckets, name/location drill-down) that ties to the drawer, with Gate/Kooli/Vadagai and Cash-Sales reconciliation alerts. Collections now has Enter + View/Update (editable saved days). Cash sales are now keyed in Collections. Mark-Paid now accounts for suspense.",
+  "version": "0.1.30",
+  "notes": "Cash Book polish: Cr/Dr headers; Gate/Kooli/Vadagai and Cash Sales reconciliation shown on one line each (red on mismatch); Mark-Paid shows a neutral 'Enter the denomination counts' prompt with clearer colours.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.29/app.asar",
-    "sha256": "2439fed4e9b4866469f87f5d89cb7070a153aef4e798cab0b17b3b6344977245",
-    "bytes": 24434929
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.30/app.asar",
+    "sha256": "c65c7c3da4cc94daa5124a832436a9938a693f4450c686b7723f3253abf10506",
+    "bytes": 24436834
   },
   "fullBuildUrl": ""
 }
