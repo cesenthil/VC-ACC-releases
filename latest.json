@@ -1,11 +1,11 @@
 {
-  "version": "0.1.26",
-  "notes": "Split lot: the Suspense (BD) note now stretches across the Buyer + Auction columns for more room, and the 'Sus. A/C' label is removed.",
+  "version": "0.1.27",
+  "notes": "Split-screen Cash sales now post to the cash book; suspense shown Debit -Rs / Credit +Rs; Buyer Splits 'View / Edit Splits' + edit icon.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.26/app.asar",
-    "sha256": "5012e36dd3237981d1357b4426cfc0ed7bc624fe82974b5ddcb9414aa243c4e6",
-    "bytes": 24329768
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.27/app.asar",
+    "sha256": "2306debe901184b9f449095402df646787d89a22a0d738e9e4be6acc72a92a57",
+    "bytes": 24340371
   },
   "fullBuildUrl": ""
 }
