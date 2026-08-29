@@ -1,11 +1,11 @@
 {
-  "version": "0.1.23",
-  "notes": "Seller/Buyer name lookup now matches from the START of the name (type 'Ala' → names beginning with Ala), not the middle, and never matches by location.",
+  "version": "0.1.24",
+  "notes": "Split lot: restored the auto-focus on the first price field when the box opens (0.1.22 lost it) — cursor lands there, at the end of the value, with no select-all highlight.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.23/app.asar",
-    "sha256": "2f5198e75e17ff1a492e0c06ad9f60800f2d2815714299a7d4f2b7d34039cab8",
-    "bytes": 24307545
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.24/app.asar",
+    "sha256": "216bf2018663c7ab737f8edc7760141f1478857cfc45f8f059c6edb34309747e",
+    "bytes": 24307611
   },
   "fullBuildUrl": ""
 }
