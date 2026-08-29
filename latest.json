@@ -1,11 +1,11 @@
 {
-  "version": "0.1.12",
-  "notes": "Save Draft now shows a 'Draft saved' confirmation with New Invoice (and Continue Editing); New Invoice reliably focuses the seller box.",
+  "version": "0.1.13",
+  "notes": "Invoice Register (Invoice → View): default sorted by invoice # ascending; click any column header (Date, Invoice #, Seller, Location, Net) to sort, click again to reverse.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.12/app.asar",
-    "sha256": "334fb0c60dc845ad866bf5ee9300f73a0f786f6724ec905c22ed323c1dc4ef83",
-    "bytes": 24269144
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.13/app.asar",
+    "sha256": "3ca3910ccd6bb9f54622e73301f7735e647cd1acad670726139a645f365bba06",
+    "bytes": 24270057
   },
   "fullBuildUrl": ""
 }
