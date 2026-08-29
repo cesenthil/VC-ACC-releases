@@ -1,11 +1,11 @@
 {
-  "version": "0.1.25",
-  "notes": "Buyer Splits: new 'Add Sus.A/C' button. When the buyers total fewer kattu than the seller was paid for, it adds a row that absorbs the leftover as a Suspense DEBIT against the seller (valued at his paid price), with an auto (editable) note like 'BD dd/mm/yyyy G-bill N kattu extra paid'. The balance tallies to zero and Save is enabled; the debit reverses if the invoice is cancelled.",
+  "version": "0.1.26",
+  "notes": "Split lot: the Suspense (BD) note now stretches across the Buyer + Auction columns for more room, and the 'Sus. A/C' label is removed.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.25/app.asar",
-    "sha256": "4d3309f0669c27b9ac65466e286e1b4460e37d1846c52e6f8e5b377ef471c1cd",
-    "bytes": 24330262
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.26/app.asar",
+    "sha256": "5012e36dd3237981d1357b4426cfc0ed7bc624fe82974b5ddcb9414aa243c4e6",
+    "bytes": 24329768
   },
   "fullBuildUrl": ""
 }
