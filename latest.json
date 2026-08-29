@@ -1,11 +1,11 @@
 {
-  "version": "0.1.17",
-  "notes": "Collections and Charges Entry now warn before you navigate away with unsaved entries (Stay & Finish / Leave & Discard) — no data lost. Buyer Splits (Pending & Update) default-sorted by invoice # with click-to-sort headers.",
+  "version": "0.1.18",
+  "notes": "Buyer Splits: default-sorted by invoice # with sortable headers; the split box now shows a clear red 'Balance' row (remaining Bag/Qtr/Kattu) that turns green and enables Save when it reaches zero; the Bag/Kattu toggle works with Up/Down arrows + Enter; and the list filter clears after saving a split (so the full remaining list shows).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.17/app.asar",
-    "sha256": "bf61cb77d83f93b346ac6026b274f1775ade77674e37d28c6a5aa54d400e163c",
-    "bytes": 24298780
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.18/app.asar",
+    "sha256": "285ed6a1af1a7562d6ec5e324c375c874cf404f2c1dd6c8cf4338928b0ca5021",
+    "bytes": 24302520
   },
   "fullBuildUrl": ""
 }
