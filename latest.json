@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "notes": "Header flashes 'Update V.<version> Available'; click to open Settings updates",
+  "version": "0.1.5",
+  "notes": "New betel-leaf brand mark; title tidy",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.4/app.asar",
-    "sha256": "c2ff0591cb0b4cfe6f88d5643d4bef19ae1783a9eeedde2a1285a5b0d242e359",
-    "bytes": 24123656
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.5/app.asar",
+    "sha256": "5f9417810e5094a9dbd7bd19a7c0e8f88bd6262c94feb2ed081f703a4d1d492f",
+    "bytes": 24126994
   },
   "fullBuildUrl": ""
 }
