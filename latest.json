@@ -1,11 +1,11 @@
 {
-  "version": "0.1.27",
-  "notes": "Split-screen Cash sales now post to the cash book; suspense shown Debit -Rs / Credit +Rs; Buyer Splits 'View / Edit Splits' + edit icon.",
+  "version": "0.1.28",
+  "notes": "Fixes the stale cash-book view: the app now runs a single instance and every screen refreshes when you return to it. (Cash sales from splits now show reliably.)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.27/app.asar",
-    "sha256": "2306debe901184b9f449095402df646787d89a22a0d738e9e4be6acc72a92a57",
-    "bytes": 24340371
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.28/app.asar",
+    "sha256": "8b6bd3d688b943c071f5bfc24291996b7d9fd1f884f79c8a0684acd412a9951a",
+    "bytes": 24346375
   },
   "fullBuildUrl": ""
 }
