@@ -1,11 +1,11 @@
 {
-  "version": "0.1.19",
-  "notes": "Split lot: capped the buyer count at 20 (a fat-finger '66' now clamps to 20, so the app can't be overwhelmed); steadier cursor focus when the split box opens (no flicker). The clear red 'Balance' row shipped in 0.1.18.",
+  "version": "0.1.20",
+  "notes": "Split lot: the total buyer amount now shows at the bottom of the Amount column (on the Balance row).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.19/app.asar",
-    "sha256": "2f1fc8d67ec2faf57f822c196b3a60158035d97c7e6f3b0139b281391b2dabe0",
-    "bytes": 24303239
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.20/app.asar",
+    "sha256": "f7a2f91d15dd7ac778cb36bd647714a33f683a14745214b633f94939d778d325",
+    "bytes": 24303744
   },
   "fullBuildUrl": ""
 }
