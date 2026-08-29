@@ -1,11 +1,11 @@
 {
-  "version": "0.1.30",
-  "notes": "Cash Book polish: Cr/Dr headers; Gate/Kooli/Vadagai and Cash Sales reconciliation shown on one line each (red on mismatch); Mark-Paid shows a neutral 'Enter the denomination counts' prompt with clearer colours.",
+  "version": "0.1.31",
+  "notes": "Cash Book: cash sales via a designated cash-sales buyer (Settings + default Collections row + own Cash Sales line); Add Entry redesigned (Cr/Dr toggle, growing Description dropdown per direction, Receipts/Expenses groups); 'Buyer Betel Payments' renamed to 'Buyer Betel Collections'.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.30/app.asar",
-    "sha256": "c65c7c3da4cc94daa5124a832436a9938a693f4450c686b7723f3253abf10506",
-    "bytes": 24436834
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.31/app.asar",
+    "sha256": "a5bf27377ffe99e9ada271e4eb87849ce5af44323dcee4d13c520de2c0dde422",
+    "bytes": 24463468
   },
   "fullBuildUrl": ""
 }
