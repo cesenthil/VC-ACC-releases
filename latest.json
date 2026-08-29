@@ -1,11 +1,11 @@
 {
-  "version": "0.1.3",
-  "notes": "Header flashes 'New Version Available' when an update exists; click it to jump to Settings",
+  "version": "0.1.4",
+  "notes": "Header flashes 'Update V.<version> Available'; click to open Settings updates",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.3/app.asar",
-    "sha256": "b332945022cdf2e22a6b7b10638570279df3330455be68cf46b46615a0e39339",
-    "bytes": 24123665
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.4/app.asar",
+    "sha256": "c2ff0591cb0b4cfe6f88d5643d4bef19ae1783a9eeedde2a1285a5b0d242e359",
+    "bytes": 24123656
   },
   "fullBuildUrl": ""
 }
