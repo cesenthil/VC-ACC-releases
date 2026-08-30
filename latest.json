@@ -1,11 +1,11 @@
 {
-  "version": "0.1.45",
-  "notes": "Split modal focus back on Auction (fixes held-by buyer blanking on Enter); home-menu badges show exact hover text (what action is pending).",
+  "version": "0.1.46",
+  "notes": "App opens maximized by default.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.45/app.asar",
-    "sha256": "5b1700280263b19d085112e83575f37c8c55ab6b43ebbe7e5678b3b289adf789",
-    "bytes": 24748938
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.46/app.asar",
+    "sha256": "0223fafb2d4be86a16e019d5463cd824f32715b984ad52330b2c85cd9d0e3537",
+    "bytes": 24749701
   },
   "fullBuildUrl": ""
 }
