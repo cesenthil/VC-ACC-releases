@@ -1,11 +1,11 @@
 {
-  "version": "0.1.32",
-  "notes": "Cash Book: 3-section layout with Expenses (red) and Receipts (green) entry grids (Description + Amount, standard lists), replacing the single Add Entry. Loan Repayment & Advance: 3-section IL/HL/Suspense layout with per-section summary, Books-icon history, and Submit; Suspense knock-off without invoice. Loan display fixes: principal recoveries/openings now shown on the card, interest & principal both as receipts, overpaid interest shown as zero.",
+  "version": "0.1.33",
+  "notes": "Cash Book Expenses/Receipts: show every standard line as a fixed read-only row (cashier just fills the amount); 'Save Expenses' renamed 'Save Payments'. Cash Book drill now shows each manual entry's description (falls back to category) instead of 'Manual Entry'.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.32/app.asar",
-    "sha256": "81b383d68d8487116a671fb9b26b3b6ea35886396cbbbd190a11d85c14065015",
-    "bytes": 24503979
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.33/app.asar",
+    "sha256": "4be43e53fa8809fc3a8f6ee93864e19439767dbc88e71e87cd734b85e1883255",
+    "bytes": 24499705
   },
   "fullBuildUrl": ""
 }
