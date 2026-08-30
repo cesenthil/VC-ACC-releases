@@ -1,11 +1,11 @@
 {
-  "version": "0.1.36",
-  "notes": "Cash Book layout: Cash Book narrowed so Payments, Receipts and Cash Tally sit in one row; Payments/Receipts totals aligned to the amount column with narrower Save buttons and no decimals; Cash Tally Counted/Cash-in-hand left-aligned.",
+  "version": "0.1.37",
+  "notes": "Cash Book: Cash Tally now saves (Save Tally button, persists per day + reloads). Added Cash Excess (Receipts) and Cash Short (Payments) lines that show as their own green/red lines in the cash book. 'Expenses' bucket renamed 'Payments'; Save buttons narrowed.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.36/app.asar",
-    "sha256": "245ac113b0061a5b814e9a183ccca8e57ed4611f892a02f795441ece7c82920c",
-    "bytes": 24535475
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.37/app.asar",
+    "sha256": "320ca90c815eff9a1107ef1054f0f03d5bd23ad3ea8a652d58c6b70afc78a838",
+    "bytes": 24551462
   },
   "fullBuildUrl": ""
 }
