@@ -1,11 +1,11 @@
 {
-  "version": "0.1.50",
-  "notes": "Mark Paid: 'post to suspense' method (credit to seller ledger + offsetting Suspense Cr). Cash Book: split 'Add Sus.A/C' suspense now shows as Seller Suspense Dr with the seller's betel reduced (red-underline + hover), cash-neutral.",
+  "version": "0.1.51",
+  "notes": "Cash Book: split 'Add Sus.A/C' suspense now reclassifies on the lot's own day even after it has been knocked off/settled on a later invoice (the overpay physically left the drawer that day). Fixes Saravanan 8/1 not showing. Suspense Dr row now labelled to match the betel line.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.50/app.asar",
-    "sha256": "e95f676f04fe9a0c229b24d9d4235ebb4a1b6e86674e8c0e94e939619f52d432",
-    "bytes": 24789603
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.51/app.asar",
+    "sha256": "6d66f0acd73d58dfc4e84b7bf25ff33571c487f239ed1b0e9b64c7e76252dd2f",
+    "bytes": 24790634
   },
   "fullBuildUrl": ""
 }
