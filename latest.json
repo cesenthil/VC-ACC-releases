@@ -1,11 +1,11 @@
 {
-  "version": "0.1.42",
-  "notes": "Cash Book 'Invoice Not Paid': renamed Update to Mark Paid (between Invoice# and Amount, aligned), amount right-aligned to the Receipts column.",
+  "version": "0.1.43",
+  "notes": "Buyer Splits: amount is a direct override (no price recalc), focus first row, spaced ₹; Settings buyer-rounding threshold; invoice Cash line always single; absentees skip dormant; New-menu Address Book counts + flashing last-backup badge.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.42/app.asar",
-    "sha256": "c12da431e085bf496a4440366c61f86a32b219e31c5b22e6fc3f4b31343920c5",
-    "bytes": 24710661
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.43/app.asar",
+    "sha256": "a40fcc302f3af16e5b83ba709768256c6fcb24f18377b970115ce4546c083bbb",
+    "bytes": 24746452
   },
   "fullBuildUrl": ""
 }
