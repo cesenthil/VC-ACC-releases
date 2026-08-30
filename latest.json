@@ -1,11 +1,11 @@
 {
-  "version": "0.1.46",
-  "notes": "App opens maximized by default.",
+  "version": "0.1.47",
+  "notes": "Split modal: reliably focus the first Auction price after Load Rows (effect-driven; count-field Enter no longer steals focus).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.46/app.asar",
-    "sha256": "0223fafb2d4be86a16e019d5463cd824f32715b984ad52330b2c85cd9d0e3537",
-    "bytes": 24749701
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.47/app.asar",
+    "sha256": "02f7ce65cf9769ee6a220614268e22d51a8179740ec735210add2e83512389a9",
+    "bytes": 24750461
   },
   "fullBuildUrl": ""
 }
