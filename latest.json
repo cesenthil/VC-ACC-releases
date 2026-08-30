@@ -1,11 +1,11 @@
 {
-  "version": "0.1.48",
-  "notes": "Split modal: focus lands on the Bag/Kattu toggle after Load Rows; buyer name field ~20% wider.",
+  "version": "0.1.49",
+  "notes": "Cash Book: Mark Paid opens in place (stays on Cash Book). Mark-Paid modal adds a UPI amount + Phone# ref; cash+UPI must equal net; the UPI amount auto-posts a read-only 'Cash Thru UPI' receipt that balances the drawer.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.48/app.asar",
-    "sha256": "304650c018ce4c9a4cad9e65994cc5d46d7a5dbf0bdd39bd7fdff8604f8961e7",
-    "bytes": 24751266
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.49/app.asar",
+    "sha256": "05954ae7e4cf736ac55e5e460aae267b78fb7cab1125fb35b287ccb12d8dd281",
+    "bytes": 24770723
   },
   "fullBuildUrl": ""
 }
