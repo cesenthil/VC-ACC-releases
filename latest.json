@@ -1,11 +1,11 @@
 {
-  "version": "0.1.49",
-  "notes": "Cash Book: Mark Paid opens in place (stays on Cash Book). Mark-Paid modal adds a UPI amount + Phone# ref; cash+UPI must equal net; the UPI amount auto-posts a read-only 'Cash Thru UPI' receipt that balances the drawer.",
+  "version": "0.1.50",
+  "notes": "Mark Paid: 'post to suspense' method (credit to seller ledger + offsetting Suspense Cr). Cash Book: split 'Add Sus.A/C' suspense now shows as Seller Suspense Dr with the seller's betel reduced (red-underline + hover), cash-neutral.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.49/app.asar",
-    "sha256": "05954ae7e4cf736ac55e5e460aae267b78fb7cab1125fb35b287ccb12d8dd281",
-    "bytes": 24770723
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.50/app.asar",
+    "sha256": "e95f676f04fe9a0c229b24d9d4235ebb4a1b6e86674e8c0e94e939619f52d432",
+    "bytes": 24789603
   },
   "fullBuildUrl": ""
 }
