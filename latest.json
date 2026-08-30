@@ -1,11 +1,11 @@
 {
-  "version": "0.1.34",
-  "notes": "Fix: voiding a loan repayment now also removes its cash-book row (voided IL/HL no longer keeps ringing up); one-time cleanup removes existing orphan loan cash rows on launch. Cash Book drill: Void replaced by aligned Edit + Delete icons (Edit lets you fix a manual entry). Payments/Receipts panels tightened (Total moved to the Save row), amount field narrowed; Receipts list = Cash By VC / Cash Thru UPI / Others.",
+  "version": "0.1.35",
+  "notes": "Cash Book: new Cash Tally section below Receipts — count the drawer by denomination (₹500→₹1) and it checks against the day's cash-in-hand (Tallies / Short / Excess). Payments/Receipts total moved to the Save row, right-aligned (label removed).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.34/app.asar",
-    "sha256": "8306d5630f9b585d20920fbebdcdd0ca423ed18ec585d22c7985e58088a11ae3",
-    "bytes": 24520999
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.35/app.asar",
+    "sha256": "7747b901ed7cc0ad03c0e3827668caeb583201df404aba8c0d512ac27d28a39a",
+    "bytes": 24534391
   },
   "fullBuildUrl": ""
 }
