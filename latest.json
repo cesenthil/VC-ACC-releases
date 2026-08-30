@@ -1,11 +1,11 @@
 {
-  "version": "0.1.35",
-  "notes": "Cash Book: new Cash Tally section below Receipts — count the drawer by denomination (₹500→₹1) and it checks against the day's cash-in-hand (Tallies / Short / Excess). Payments/Receipts total moved to the Save row, right-aligned (label removed).",
+  "version": "0.1.36",
+  "notes": "Cash Book layout: Cash Book narrowed so Payments, Receipts and Cash Tally sit in one row; Payments/Receipts totals aligned to the amount column with narrower Save buttons and no decimals; Cash Tally Counted/Cash-in-hand left-aligned.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.35/app.asar",
-    "sha256": "7747b901ed7cc0ad03c0e3827668caeb583201df404aba8c0d512ac27d28a39a",
-    "bytes": 24534391
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.36/app.asar",
+    "sha256": "245ac113b0061a5b814e9a183ccca8e57ed4611f892a02f795441ece7c82920c",
+    "bytes": 24535475
   },
   "fullBuildUrl": ""
 }
