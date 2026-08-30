@@ -1,11 +1,11 @@
 {
-  "version": "0.1.51",
-  "notes": "Cash Book: split 'Add Sus.A/C' suspense now reclassifies on the lot's own day even after it has been knocked off/settled on a later invoice (the overpay physically left the drawer that day). Fixes Saravanan 8/1 not showing. Suspense Dr row now labelled to match the betel line.",
+  "version": "0.1.52",
+  "notes": "Cash Book: when a Seller Betel Payment group contains a suspense adjustment, the collapsed GROUP total is now red-underlined too (matching the drill-down amount), with a hover saying how much moved to Suspense.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.51/app.asar",
-    "sha256": "6d66f0acd73d58dfc4e84b7bf25ff33571c487f239ed1b0e9b64c7e76252dd2f",
-    "bytes": 24790634
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.52/app.asar",
+    "sha256": "62c80da171b364df6c49372a525e3189ee641ca2dcd57b188ea013a0ce149471",
+    "bytes": 24791858
   },
   "fullBuildUrl": ""
 }
