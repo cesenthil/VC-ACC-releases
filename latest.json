@@ -1,11 +1,11 @@
 {
-  "version": "0.1.40",
-  "notes": "Fix: crash when opening an invoice / editing an invoice-sourced loan row (hook-order regression in v0.1.39). Invoice suspense knock-off now only offers suspense dated before the invoice (no retroactive settling) and no longer shows/glows on paid read-only invoices. Loan View/Update filters no longer shift when used; date fields narrowed, Name selector fixed, Clear button space reserved. Mild row-hover highlight on all tables.",
+  "version": "0.1.41",
+  "notes": "New 'New' home menu (colour tiles, drag-reorder, to-do badges); Cash Book Invoice-Not-Paid list, saved Payments/Receipts, Save-Tally closes the day; Collections locked Cash Sales row; faster keyboard entry on Invoice & Charges; avg-price B/K arrows.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.40/app.asar",
-    "sha256": "a79d8a2a5c69448c5bba0a1a64e201f9672139fd7fe0e2727b9495688c1f2f97",
-    "bytes": 24626867
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.41/app.asar",
+    "sha256": "201649ffae59092b844ebc318764188388bf21e7932e1fe23c5fefda788ef862",
+    "bytes": 24709872
   },
   "fullBuildUrl": ""
 }
