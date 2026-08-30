@@ -1,11 +1,11 @@
 {
-  "version": "0.1.37",
-  "notes": "Cash Book: Cash Tally now saves (Save Tally button, persists per day + reloads). Added Cash Excess (Receipts) and Cash Short (Payments) lines that show as their own green/red lines in the cash book. 'Expenses' bucket renamed 'Payments'; Save buttons narrowed.",
+  "version": "0.1.38",
+  "notes": "Fix: the Invoice Register list (and its total) now subtract the invoice suspense, so the net matches the invoice detail's Net payable and the Mark-Paid amount (was showing the pre-suspense figure).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.37/app.asar",
-    "sha256": "320ca90c815eff9a1107ef1054f0f03d5bd23ad3ea8a652d58c6b70afc78a838",
-    "bytes": 24551462
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.38/app.asar",
+    "sha256": "8c901f79e846e1f6e553cc7bfcf3adcb846c0795a3d3266c8d8cc837c222338d",
+    "bytes": 24553422
   },
   "fullBuildUrl": ""
 }
