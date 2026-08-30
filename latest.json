@@ -1,11 +1,11 @@
 {
-  "version": "0.1.33",
-  "notes": "Cash Book Expenses/Receipts: show every standard line as a fixed read-only row (cashier just fills the amount); 'Save Expenses' renamed 'Save Payments'. Cash Book drill now shows each manual entry's description (falls back to category) instead of 'Manual Entry'.",
+  "version": "0.1.34",
+  "notes": "Fix: voiding a loan repayment now also removes its cash-book row (voided IL/HL no longer keeps ringing up); one-time cleanup removes existing orphan loan cash rows on launch. Cash Book drill: Void replaced by aligned Edit + Delete icons (Edit lets you fix a manual entry). Payments/Receipts panels tightened (Total moved to the Save row), amount field narrowed; Receipts list = Cash By VC / Cash Thru UPI / Others.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.33/app.asar",
-    "sha256": "4be43e53fa8809fc3a8f6ee93864e19439767dbc88e71e87cd734b85e1883255",
-    "bytes": 24499705
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.34/app.asar",
+    "sha256": "8306d5630f9b585d20920fbebdcdd0ca423ed18ec585d22c7985e58088a11ae3",
+    "bytes": 24520999
   },
   "fullBuildUrl": ""
 }
