@@ -1,11 +1,11 @@
 {
-  "version": "0.1.38",
-  "notes": "Fix: the Invoice Register list (and its total) now subtract the invoice suspense, so the net matches the invoice detail's Net payable and the Mark-Paid amount (was showing the pre-suspense figure).",
+  "version": "0.1.39",
+  "notes": "Buyer Splits: click a share's Amount to back-calculate its Auction price from the qty. Mark-Paid: fixed invoice suspense being added instead of subtracted (net now matches the invoice detail); narrower modal. Loan: 'Advance' renamed 'New Loan' and a new 'View / Update Transactions' screen (filter by date/party/IL-HL/principal-interest, inline edit + delete of standalone loan entries). Invoice edit now confirms 'Invoice updated'.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.38/app.asar",
-    "sha256": "8c901f79e846e1f6e553cc7bfcf3adcb846c0795a3d3266c8d8cc837c222338d",
-    "bytes": 24553422
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.39/app.asar",
+    "sha256": "584fa6d16dd9c0d01592f212d73a79fabf2f2a72a38cf58c2a798f7eb8cd513f",
+    "bytes": 24622763
   },
   "fullBuildUrl": ""
 }
