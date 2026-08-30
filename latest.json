@@ -1,11 +1,11 @@
 {
-  "version": "0.1.43",
-  "notes": "Buyer Splits: amount is a direct override (no price recalc), focus first row, spaced ₹; Settings buyer-rounding threshold; invoice Cash line always single; absentees skip dormant; New-menu Address Book counts + flashing last-backup badge.",
+  "version": "0.1.44",
+  "notes": "New menu: Address Book count chips are fixed-width so Sellers/Buyers columns line up (no dancing).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.43/app.asar",
-    "sha256": "a40fcc302f3af16e5b83ba709768256c6fcb24f18377b970115ce4546c083bbb",
-    "bytes": 24746452
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.44/app.asar",
+    "sha256": "704576f1a29666f96e3977d33937157c16c03602fc09d9168c4d361d044b8e06",
+    "bytes": 24746482
   },
   "fullBuildUrl": ""
 }
