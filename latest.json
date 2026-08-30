@@ -1,11 +1,11 @@
 {
-  "version": "0.1.47",
-  "notes": "Split modal: reliably focus the first Auction price after Load Rows (effect-driven; count-field Enter no longer steals focus).",
+  "version": "0.1.48",
+  "notes": "Split modal: focus lands on the Bag/Kattu toggle after Load Rows; buyer name field ~20% wider.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.47/app.asar",
-    "sha256": "02f7ce65cf9769ee6a220614268e22d51a8179740ec735210add2e83512389a9",
-    "bytes": 24750461
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.48/app.asar",
+    "sha256": "304650c018ce4c9a4cad9e65994cc5d46d7a5dbf0bdd39bd7fdff8604f8961e7",
+    "bytes": 24751266
   },
   "fullBuildUrl": ""
 }
