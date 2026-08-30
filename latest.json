@@ -1,11 +1,11 @@
 {
-  "version": "0.1.31",
-  "notes": "Cash Book: cash sales via a designated cash-sales buyer (Settings + default Collections row + own Cash Sales line); Add Entry redesigned (Cr/Dr toggle, growing Description dropdown per direction, Receipts/Expenses groups); 'Buyer Betel Payments' renamed to 'Buyer Betel Collections'.",
+  "version": "0.1.32",
+  "notes": "Cash Book: 3-section layout with Expenses (red) and Receipts (green) entry grids (Description + Amount, standard lists), replacing the single Add Entry. Loan Repayment & Advance: 3-section IL/HL/Suspense layout with per-section summary, Books-icon history, and Submit; Suspense knock-off without invoice. Loan display fixes: principal recoveries/openings now shown on the card, interest & principal both as receipts, overpaid interest shown as zero.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.31/app.asar",
-    "sha256": "a5bf27377ffe99e9ada271e4eb87849ce5af44323dcee4d13c520de2c0dde422",
-    "bytes": 24463468
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.32/app.asar",
+    "sha256": "81b383d68d8487116a671fb9b26b3b6ea35886396cbbbd190a11d85c14065015",
+    "bytes": 24503979
   },
   "fullBuildUrl": ""
 }
