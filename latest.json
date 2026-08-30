@@ -1,11 +1,11 @@
 {
-  "version": "0.1.44",
-  "notes": "New menu: Address Book count chips are fixed-width so Sellers/Buyers columns line up (no dancing).",
+  "version": "0.1.45",
+  "notes": "Split modal focus back on Auction (fixes held-by buyer blanking on Enter); home-menu badges show exact hover text (what action is pending).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.44/app.asar",
-    "sha256": "704576f1a29666f96e3977d33937157c16c03602fc09d9168c4d361d044b8e06",
-    "bytes": 24746482
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.45/app.asar",
+    "sha256": "5b1700280263b19d085112e83575f37c8c55ab6b43ebbe7e5678b3b289adf789",
+    "bytes": 24748938
   },
   "fullBuildUrl": ""
 }
