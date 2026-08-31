@@ -1,11 +1,11 @@
 {
-  "version": "0.1.53",
-  "notes": "Loan numbers (IL0001/HL0001) shown across loan transactions + history; IL upfront interest now posts to the borrower's ledger (distinct upfront, does not offset day-105 accrual). Cash Sales reconciliation drill-down (Received vs Expected invoiced lots). Collections: Amount-only 3-section layout, save confirmation. Home button on invoice success. Invoice Not Paid sorted. Sticky top bar. Cash Book label tweaks (Cash Thru VC / Cash Thru Bank / Cash to VC).",
+  "version": "0.1.54",
+  "notes": "Cash Book drill-down now shows each loan's number (ILxxxx/HLxxxx) before the party name on the IL/HL Principal and Interest lines.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.53/app.asar",
-    "sha256": "87298caa1a1b53110cc52dc88e39583b49fbd76a6a78731cb27ca74079026428",
-    "bytes": 24861360
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.54/app.asar",
+    "sha256": "5fcb80dc5e26f933e393a092e0221f8f8df8d2481c2abcae12354c4ccc286e57",
+    "bytes": 24870283
   },
   "fullBuildUrl": ""
 }
