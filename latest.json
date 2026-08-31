@@ -1,11 +1,11 @@
 {
-  "version": "0.1.52",
-  "notes": "Cash Book: when a Seller Betel Payment group contains a suspense adjustment, the collapsed GROUP total is now red-underlined too (matching the drill-down amount), with a hover saying how much moved to Suspense.",
+  "version": "0.1.53",
+  "notes": "Loan numbers (IL0001/HL0001) shown across loan transactions + history; IL upfront interest now posts to the borrower's ledger (distinct upfront, does not offset day-105 accrual). Cash Sales reconciliation drill-down (Received vs Expected invoiced lots). Collections: Amount-only 3-section layout, save confirmation. Home button on invoice success. Invoice Not Paid sorted. Sticky top bar. Cash Book label tweaks (Cash Thru VC / Cash Thru Bank / Cash to VC).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.52/app.asar",
-    "sha256": "62c80da171b364df6c49372a525e3189ee641ca2dcd57b188ea013a0ce149471",
-    "bytes": 24791858
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.53/app.asar",
+    "sha256": "87298caa1a1b53110cc52dc88e39583b49fbd76a6a78731cb27ca74079026428",
+    "bytes": 24861360
   },
   "fullBuildUrl": ""
 }
