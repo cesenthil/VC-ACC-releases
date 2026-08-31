@@ -1,11 +1,11 @@
 {
-  "version": "0.1.56",
-  "notes": "At-a-glance dashboard: paged panel with in-bar values + click-through drills, income/loan/top-10 pages. Home menu: List/Tiles toggle (Tiles default) with an interactive Updates tile. Charges Entry opens with 10 rows. Date fields pop the calendar on focus.",
+  "version": "0.1.57",
+  "notes": "Home menu: metal-framed cards with flat, borderless colour-tinted tiles; flatter accent headers, shorter title bars, tighter spacing.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.56/app.asar",
-    "sha256": "2b72de5764dfa016ddee21744864d9d7bf7f757dd8527197a9b09db631f85832",
-    "bytes": 24971578
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.57/app.asar",
+    "sha256": "c443ce6885195f14ecee8c9db6051964a681d55b9fb4e61ada4cee55a804994f",
+    "bytes": 24970558
   },
   "fullBuildUrl": ""
 }
