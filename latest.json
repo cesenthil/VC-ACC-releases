@@ -1,11 +1,11 @@
 {
-  "version": "0.1.57",
-  "notes": "Home menu: metal-framed cards with flat, borderless colour-tinted tiles; flatter accent headers, shorter title bars, tighter spacing.",
+  "version": "0.1.58",
+  "notes": "Home board restyle: one gradient sweep across the card headers with a header colour picker (Pine / Emerald / Bronze / Graphite); dark glossy tiles that light up with a gold frame on hover; deeper card surfaces so tiles stand out.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.57/app.asar",
-    "sha256": "c443ce6885195f14ecee8c9db6051964a681d55b9fb4e61ada4cee55a804994f",
-    "bytes": 24970558
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.58/app.asar",
+    "sha256": "594327f5035d19f18015c343e0e461ecf8888c24c7a88deb5c7dff1ef932592e",
+    "bytes": 24979024
   },
   "fullBuildUrl": ""
 }
