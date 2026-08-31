@@ -1,11 +1,11 @@
 {
-  "version": "0.1.55",
-  "notes": "Dropdown: the highlighted/hovered option is now a solid green (clearer). Loan Advance/Repayment: selecting a new party clears the section's form and the previous disbursement message.",
+  "version": "0.1.56",
+  "notes": "At-a-glance dashboard: paged panel with in-bar values + click-through drills, income/loan/top-10 pages. Home menu: List/Tiles toggle (Tiles default) with an interactive Updates tile. Charges Entry opens with 10 rows. Date fields pop the calendar on focus.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.55/app.asar",
-    "sha256": "e517ecbb37b0b4f92979061f7bb624ae31f5335ca1619623c75956fb349d9b90",
-    "bytes": 24871785
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.56/app.asar",
+    "sha256": "2b72de5764dfa016ddee21744864d9d7bf7f757dd8527197a9b09db631f85832",
+    "bytes": 24971578
   },
   "fullBuildUrl": ""
 }
