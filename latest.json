@@ -1,11 +1,11 @@
 {
-  "version": "0.1.54",
-  "notes": "Cash Book drill-down now shows each loan's number (ILxxxx/HLxxxx) before the party name on the IL/HL Principal and Interest lines.",
+  "version": "0.1.55",
+  "notes": "Dropdown: the highlighted/hovered option is now a solid green (clearer). Loan Advance/Repayment: selecting a new party clears the section's form and the previous disbursement message.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.54/app.asar",
-    "sha256": "5fcb80dc5e26f933e393a092e0221f8f8df8d2481c2abcae12354c4ccc286e57",
-    "bytes": 24870283
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.55/app.asar",
+    "sha256": "e517ecbb37b0b4f92979061f7bb624ae31f5335ca1619623c75956fb349d9b90",
+    "bytes": 24871785
   },
   "fullBuildUrl": ""
 }
