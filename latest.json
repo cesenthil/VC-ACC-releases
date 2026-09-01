@@ -1,11 +1,11 @@
 {
-  "version": "0.1.63",
-  "notes": "Cash Tally notes now save (fixed). Cash Book: old/custom expense labels consolidate into the new fields and sum (Salary+Wages -> Salaries & Wages, etc.); expenses counted as everything-except-Payments; Payments third item is 'Cash to Others' (label = category). Rupee sign straightened into a column (no dancing). Cash Book table: CR green, DR red, dividers after Group and CR. 'Invoice Not Paid' -> 'Unpaid Invoices'. Cash Thru Bank tag reads UPI. Mark-Paid modal captures a Notes field. Add Kambai focuses the buyer.",
+  "version": "0.1.64",
+  "notes": "Cash Book: one-line Cash-Sales diff (only when there's a real gap); loan buckets ordered Principal then Interest; Cash Tally Counted/Cash-in-hand no longer stretched. Reports: Direct menu renamed Bonus Payment; Bonus column moved after Total (excluded from it); All/Active/Dormant status filter (gold/green/red) on Individual + Area-wise. Bonus Payment screen: Individual / Area-Wise toggle (Area groups by location, drills to individual). Address Book tiles ordered Sellers, Buyers, Locations. Updates tile shows 'Updates Available V<ver>' with a brighter flash.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.63/app.asar",
-    "sha256": "4c6b77ddc8421c608a289cbb34899f1385b7d8ac95b34048d5d767326e0a8b24",
-    "bytes": 25100607
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.64/app.asar",
+    "sha256": "81c6fdc5f5020f932ce36ff6e96a1f711390274c628bb463541869f90334f6e5",
+    "bytes": 25118873
   },
   "fullBuildUrl": ""
 }
