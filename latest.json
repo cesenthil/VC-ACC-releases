@@ -1,11 +1,11 @@
 {
-  "version": "0.1.59",
-  "notes": "Home board: dropped the List view and its header toggle (Tiles only). Header colour picker trimmed to Pine / Lavender / Gold; the Lavender & Gold options render each card header as the glossy metal-framed button (silver rim) and extend that silver frame around the whole card.",
+  "version": "0.1.60",
+  "notes": "Bonus screen: per-seller/year list (Location, Name, Year, Contribution, Company Pay +50%, Total, Pay, Paid Date, Notes) with column-aligned filters (name/location/year/paid-date/status); Pay a completed prior year -> posts to the cash book (Bonus Payments) and the seller's bonus ledger; current year locked. Contribution auto-derived from invoices. Home board: header colour picker (Pine/Lavender/Gold/Custom).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.59/app.asar",
-    "sha256": "6ac93ea66cda03717780309feeb12809f83cdb0e6cab0ae5f67c70f617213718",
-    "bytes": 24981627
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.60/app.asar",
+    "sha256": "211438db9e0adc6344e4b350f31d55e9b122c3b6d68e422dba73c9dfb340baff",
+    "bytes": 25047540
   },
   "fullBuildUrl": ""
 }
