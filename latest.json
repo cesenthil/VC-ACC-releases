@@ -1,11 +1,11 @@
 {
-  "version": "0.1.65",
-  "notes": "Small tweak: the Bonus Payment Area-Wise total row now shows the number of areas. (This release is mainly to surface the new 'Updates Available' tile + brighter flash from v0.1.64.)",
+  "version": "0.1.66",
+  "notes": "Invoice: paid invoices now show a Payment Details panel (cash denominations, paid date, notes) under the Ledger; Enter in the Kattu box adds a new line and jumps to its K/B toggle. Dropdown lists open upward when there's no room below.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.65/app.asar",
-    "sha256": "a82269a6d7a18ea11e81270584434ed61afdd05b81fba2c217b92255f45c800c",
-    "bytes": 25119170
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.66/app.asar",
+    "sha256": "4608e5287741eeacbff85c03deb5bc28862805c0a5fc610ee2d87199114092a1",
+    "bytes": 25139281
   },
   "fullBuildUrl": ""
 }
