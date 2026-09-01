@@ -1,11 +1,11 @@
 {
-  "version": "0.1.58",
-  "notes": "Home board restyle: one gradient sweep across the card headers with a header colour picker (Pine / Emerald / Bronze / Graphite); dark glossy tiles that light up with a gold frame on hover; deeper card surfaces so tiles stand out.",
+  "version": "0.1.59",
+  "notes": "Home board: dropped the List view and its header toggle (Tiles only). Header colour picker trimmed to Pine / Lavender / Gold; the Lavender & Gold options render each card header as the glossy metal-framed button (silver rim) and extend that silver frame around the whole card.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.58/app.asar",
-    "sha256": "594327f5035d19f18015c343e0e461ecf8888c24c7a88deb5c7dff1ef932592e",
-    "bytes": 24979024
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.59/app.asar",
+    "sha256": "6ac93ea66cda03717780309feeb12809f83cdb0e6cab0ae5f67c70f617213718",
+    "bytes": 24981627
   },
   "fullBuildUrl": ""
 }
