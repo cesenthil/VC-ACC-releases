@@ -1,11 +1,11 @@
 {
-  "version": "0.1.64",
-  "notes": "Cash Book: one-line Cash-Sales diff (only when there's a real gap); loan buckets ordered Principal then Interest; Cash Tally Counted/Cash-in-hand no longer stretched. Reports: Direct menu renamed Bonus Payment; Bonus column moved after Total (excluded from it); All/Active/Dormant status filter (gold/green/red) on Individual + Area-wise. Bonus Payment screen: Individual / Area-Wise toggle (Area groups by location, drills to individual). Address Book tiles ordered Sellers, Buyers, Locations. Updates tile shows 'Updates Available V<ver>' with a brighter flash.",
+  "version": "0.1.65",
+  "notes": "Small tweak: the Bonus Payment Area-Wise total row now shows the number of areas. (This release is mainly to surface the new 'Updates Available' tile + brighter flash from v0.1.64.)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.64/app.asar",
-    "sha256": "81c6fdc5f5020f932ce36ff6e96a1f711390274c628bb463541869f90334f6e5",
-    "bytes": 25118873
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.65/app.asar",
+    "sha256": "a82269a6d7a18ea11e81270584434ed61afdd05b81fba2c217b92255f45c800c",
+    "bytes": 25119170
   },
   "fullBuildUrl": ""
 }
