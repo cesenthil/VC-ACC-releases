@@ -1,11 +1,11 @@
 {
-  "version": "0.1.60",
-  "notes": "Bonus screen: per-seller/year list (Location, Name, Year, Contribution, Company Pay +50%, Total, Pay, Paid Date, Notes) with column-aligned filters (name/location/year/paid-date/status); Pay a completed prior year -> posts to the cash book (Bonus Payments) and the seller's bonus ledger; current year locked. Contribution auto-derived from invoices. Home board: header colour picker (Pine/Lavender/Gold/Custom).",
+  "version": "0.1.61",
+  "notes": "Home board: Gold/Individual colour toggle (each card its own colour). Cash Book: Payments split into Expenses + Payments (Payments = cash movements, not expenses); Cash Short now an expense; Cash Excess counts as income; all columns bottom-aligned; Invoice Not Paid fills + scrolls. Future dates blocked at every date field (typed or picked). Rupee amounts now show a space (Rs 13,000). Sharper 4px corners. Name dropdowns flip up when no room below; removed the x on name pickers; buyer edit pre-fills Location.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.60/app.asar",
-    "sha256": "211438db9e0adc6344e4b350f31d55e9b122c3b6d68e422dba73c9dfb340baff",
-    "bytes": 25047540
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.61/app.asar",
+    "sha256": "1bddd847897a6717c16d08030e9bd61d5add4477cc66072217fe298430f78a09",
+    "bytes": 25080768
   },
   "fullBuildUrl": ""
 }
