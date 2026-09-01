@@ -1,11 +1,11 @@
 {
-  "version": "0.1.62",
-  "notes": "Cash Tally: a free-text Notes/reference box (Save moved to the bottom), saved with the day. Cash Book columns all bottom-aligned; Invoice Not Paid says 'No invoices for the day' when there are none. Update cue now flashes on the Updates tile (not the header); download bar is light-gold with black text. Wider space between the rupee sign and the number.",
+  "version": "0.1.63",
+  "notes": "Cash Tally notes now save (fixed). Cash Book: old/custom expense labels consolidate into the new fields and sum (Salary+Wages -> Salaries & Wages, etc.); expenses counted as everything-except-Payments; Payments third item is 'Cash to Others' (label = category). Rupee sign straightened into a column (no dancing). Cash Book table: CR green, DR red, dividers after Group and CR. 'Invoice Not Paid' -> 'Unpaid Invoices'. Cash Thru Bank tag reads UPI. Mark-Paid modal captures a Notes field. Add Kambai focuses the buyer.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.62/app.asar",
-    "sha256": "c8957cba7a3b68c52d1f9c3025465e98a0112028f41bf1424ee09c3491b0c8aa",
-    "bytes": 25087788
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.63/app.asar",
+    "sha256": "4c6b77ddc8421c608a289cbb34899f1385b7d8ac95b34048d5d767326e0a8b24",
+    "bytes": 25100607
   },
   "fullBuildUrl": ""
 }
