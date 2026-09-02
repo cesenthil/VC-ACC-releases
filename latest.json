@@ -1,11 +1,11 @@
 {
-  "version": "0.1.67",
-  "notes": "Invoice Payment Details panel: paid date moved into the header, and the 'Paid date' / 'Notes' labels removed (cleaner layout).",
+  "version": "0.1.68",
+  "notes": "Hotfix (data loss): invoice save is now atomic — editing an invoice can no longer destroy it if the re-save errors mid-way (e.g. missing service charges for a changed date). Normal New/Update behaviour is unchanged.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.67/app.asar",
-    "sha256": "15abe4d05530edb8811ffe5dfcb7bb87b03df6d4e6ecbeffc734bf17457ce28b",
-    "bytes": 25138600
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.68/app.asar",
+    "sha256": "4fa2d33e895c941b3869b87bdc386eaa7e9de35a788a8187f2f7e5c57a529df9",
+    "bytes": 25147536
   },
   "fullBuildUrl": ""
 }
