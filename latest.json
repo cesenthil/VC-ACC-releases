@@ -1,11 +1,11 @@
 {
-  "version": "0.1.68",
-  "notes": "Hotfix (data loss): invoice save is now atomic — editing an invoice can no longer destroy it if the re-save errors mid-way (e.g. missing service charges for a changed date). Normal New/Update behaviour is unchanged.",
+  "version": "0.1.69",
+  "notes": "Cash Book: Payments now persist/hydrate like Expenses (fixes the pane appearing to wipe). Invoices: a paid invoice can be reopened with 'Mark Unpaid' (reverses the payment, updates the cash book) then edited and re-paid. Navigation: the full page path shows next to Home; filter bars and table column headers stay pinned while long lists scroll.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.68/app.asar",
-    "sha256": "4fa2d33e895c941b3869b87bdc386eaa7e9de35a788a8187f2f7e5c57a529df9",
-    "bytes": 25147536
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.69/app.asar",
+    "sha256": "598c784c43cd7e2ddffc0e1e88ca8eda0fbbc136ff3654378f1da50d8972145b",
+    "bytes": 27266475
   },
   "fullBuildUrl": ""
 }
