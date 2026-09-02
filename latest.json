@@ -1,11 +1,11 @@
 {
-  "version": "0.1.66",
-  "notes": "Invoice: paid invoices now show a Payment Details panel (cash denominations, paid date, notes) under the Ledger; Enter in the Kattu box adds a new line and jumps to its K/B toggle. Dropdown lists open upward when there's no room below.",
+  "version": "0.1.67",
+  "notes": "Invoice Payment Details panel: paid date moved into the header, and the 'Paid date' / 'Notes' labels removed (cleaner layout).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.66/app.asar",
-    "sha256": "4608e5287741eeacbff85c03deb5bc28862805c0a5fc610ee2d87199114092a1",
-    "bytes": 25139281
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.67/app.asar",
+    "sha256": "15abe4d05530edb8811ffe5dfcb7bb87b03df6d4e6ecbeffc734bf17457ce28b",
+    "bytes": 25138600
   },
   "fullBuildUrl": ""
 }
