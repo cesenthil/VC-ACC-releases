@@ -1,11 +1,11 @@
 {
-  "version": "0.1.69",
-  "notes": "Cash Book: Payments now persist/hydrate like Expenses (fixes the pane appearing to wipe). Invoices: a paid invoice can be reopened with 'Mark Unpaid' (reverses the payment, updates the cash book) then edited and re-paid. Navigation: the full page path shows next to Home; filter bars and table column headers stay pinned while long lists scroll.",
+  "version": "0.1.70",
+  "notes": "HOTFIX (data loss): saving Cash Book Expenses no longer wipes Payments (and vice-versa). The IPC handler was dropping the category-scope argument, so each save deleted all cash-out rows instead of just its own pane. Now scoped correctly.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.69/app.asar",
-    "sha256": "598c784c43cd7e2ddffc0e1e88ca8eda0fbbc136ff3654378f1da50d8972145b",
-    "bytes": 27266475
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.70/app.asar",
+    "sha256": "2eef88e7c18539db49be0ab8e0fe1fbca22885ac7833acde894a44a0849aa1b1",
+    "bytes": 27266557
   },
   "fullBuildUrl": ""
 }
