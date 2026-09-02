@@ -1,11 +1,11 @@
 {
-  "version": "0.1.70",
-  "notes": "HOTFIX (data loss): saving Cash Book Expenses no longer wipes Payments (and vice-versa). The IPC handler was dropping the category-scope argument, so each save deleted all cash-out rows instead of just its own pane. Now scoped correctly.",
+  "version": "0.1.71",
+  "notes": "Suspense sign now follows the ledger convention: Debit (owes us) shows -ve, Credit (we owe) shows +ve. Display-only; no data change.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.70/app.asar",
-    "sha256": "2eef88e7c18539db49be0ab8e0fe1fbca22885ac7833acde894a44a0849aa1b1",
-    "bytes": 27266557
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.71/app.asar",
+    "sha256": "5d8273692c064c14903caf9baad57d6c9cc08f7bdb76e5601095392a7ab1c76e",
+    "bytes": 28240087
   },
   "fullBuildUrl": ""
 }
