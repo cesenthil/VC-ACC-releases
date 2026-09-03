@@ -1,11 +1,11 @@
 {
-  "version": "0.1.71",
-  "notes": "Suspense sign now follows the ledger convention: Debit (owes us) shows -ve, Credit (we owe) shows +ve. Display-only; no data change.",
+  "version": "0.1.72",
+  "notes": "Address Book: Buyer/Seller toggle to re-tag a mis-created person (Farmer/Merchant shown for sellers); interest now computed day-by-day on the reducing balance.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.71/app.asar",
-    "sha256": "5d8273692c064c14903caf9baad57d6c9cc08f7bdb76e5601095392a7ab1c76e",
-    "bytes": 28240087
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.72/app.asar",
+    "sha256": "25d99cd7c8cc6938c785d68ca66087a9028aa74cd810305372c326af857b546b",
+    "bytes": 29192558
   },
   "fullBuildUrl": ""
 }
