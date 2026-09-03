@@ -1,11 +1,11 @@
 {
-  "version": "0.1.72",
-  "notes": "Address Book: Buyer/Seller toggle to re-tag a mis-created person (Farmer/Merchant shown for sellers); interest now computed day-by-day on the reducing balance.",
+  "version": "0.1.73",
+  "notes": "Address Book Buyer/Seller toggle: loans now move with the person on conversion; blocks only on invoices/bonus/suspense (seller) or betel purchases (buyer), naming what's in the way.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.72/app.asar",
-    "sha256": "25d99cd7c8cc6938c785d68ca66087a9028aa74cd810305372c326af857b546b",
-    "bytes": 29192558
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.73/app.asar",
+    "sha256": "0479c3bef1f92aeca5326fe98edadb95596573fa80e5a6bd4a5ffdf2d500a91c",
+    "bytes": 29199067
   },
   "fullBuildUrl": ""
 }
