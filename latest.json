@@ -1,11 +1,11 @@
 {
-  "version": "0.1.75",
-  "notes": "Write-off for loan & suspense balances (no cash, reversible) · richer Individual ledger (Loan#/Bill# columns + Active/Closed/All filter) · standardized pages with reliable sticky headers · clickable breadcrumb + smarter Back · word-start name search · Cash-Sales Enter fix · clearer Recovery alert",
+  "version": "0.1.76",
+  "notes": "Recovery alert: flash only the specific outstanding recovery row(s), not the whole box",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.75/app.asar",
-    "sha256": "cdffbd2a6879de3892b34a124fa96e6932c7242a3cfd0e0f16f20177113ebeba",
-    "bytes": 29306604
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.76/app.asar",
+    "sha256": "8227f1ecba04c4be9b88ff941a3131bce801b3bb07fe4b1b32e5d7a5aea409cc",
+    "bytes": 29306618
   },
   "fullBuildUrl": ""
 }
