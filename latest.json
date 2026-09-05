@@ -1,11 +1,11 @@
 {
-  "version": "0.1.76",
-  "notes": "Recovery alert: flash only the specific outstanding recovery row(s), not the whole box",
+  "version": "0.1.77",
+  "notes": "Bill Advance (same-day cash advance, reduces cash, adjusted on the day's invoice) · Add Seller/Buyer shows a live 'already exists?' matches list (type + Active/Dormant) · name search ranks name matches above same-village · write-off link aligned before the amount",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.76/app.asar",
-    "sha256": "8227f1ecba04c4be9b88ff941a3131bce801b3bb07fe4b1b32e5d7a5aea409cc",
-    "bytes": 29306618
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.77/app.asar",
+    "sha256": "afaa68a4a2b34f2cfba851d1941dd2d9e46f8a55ab5bc66694e4e63bf9ed5906",
+    "bytes": 29337514
   },
   "fullBuildUrl": ""
 }
