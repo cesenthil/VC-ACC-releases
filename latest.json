@@ -1,11 +1,11 @@
 {
-  "version": "0.1.79",
-  "notes": "VCA191/192 Individual ledger: IL/HL/Suspense/Bonus account selector with per-account transactions; settled-loan/suspense history loaded as SU# accounts and BNyyyy bonus accounts; FIFO-correct close dates; clickable header stats; fixed columns, aligned badges/amounts, standardized 2-line headers.",
+  "version": "0.1.80",
+  "notes": "Ledger tweaks: loan-status toggle defaults to Active; Bonus 'Company' (+50%) shown per contribution line; removed the redundant Bonus item from Seller/Buyer Reports (bonus stays in the Individual ledger's Bonus tab + the Bonus Payment screen).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.79/app.asar",
-    "sha256": "37d2151ebb52709b5d0ec6a13f5d665bcade3fe6333355966fcb26afb02bc7fa",
-    "bytes": 29455944
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.80/app.asar",
+    "sha256": "5aa908b3a7ab0955b2108463249362ac6beee18a4e918a4d53f07addbaa5faeb",
+    "bytes": 29448154
   },
   "fullBuildUrl": ""
 }
