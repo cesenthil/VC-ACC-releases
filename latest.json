@@ -1,11 +1,11 @@
 {
-  "version": "0.1.81",
-  "notes": "Bonus: legacy contributions (BN2020-2026) now count in the kitty balance + show per year in the ledger; unpaid legacy years payable. Ledger tables: thin dashed separators between amount columns.",
+  "version": "0.1.82",
+  "notes": "Bonus ledger shows the legacy receipt (Bill#) on each migrated contribution. Report list views: sticky TOTAL footer (only rows scroll) + thin dashed separators between amount columns.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.81/app.asar",
-    "sha256": "892f1cc917e7fb34cd92dcde1eec7787c4881801a5b1eb99f69e928057fddbec",
-    "bytes": 29511308
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.82/app.asar",
+    "sha256": "6d173b367f80a647b6d5183e044c49cec0f7b13bc863afddcf8ba7f20f532275",
+    "bytes": 29513753
   },
   "fullBuildUrl": ""
 }
