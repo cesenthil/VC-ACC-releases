@@ -1,11 +1,11 @@
 {
-  "version": "0.1.82",
-  "notes": "Bonus ledger shows the legacy receipt (Bill#) on each migrated contribution. Report list views: sticky TOTAL footer (only rows scroll) + thin dashed separators between amount columns.",
+  "version": "0.1.83",
+  "notes": "Buyers: Print Due List (A4 landscape, 3-up, Gents/Ladies, Tamil names) + Tamil-name field on the buyer form. Reports: A–Z quick-jump on the Individual list, sticky TOTAL footer, dashed amount-column separators, loan-list opens instantly on large data. Backup: shows all restore points, date no-wrap. Settings: Updates tile glows when an update is available. Entry screens: picking a date jumps to the next field.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.82/app.asar",
-    "sha256": "6d173b367f80a647b6d5183e044c49cec0f7b13bc863afddcf8ba7f20f532275",
-    "bytes": 29513753
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.83/app.asar",
+    "sha256": "9bddc8768c80bc1b95c5467d2be055e7b99841f7855a6ebb7420571d9b1a71af",
+    "bytes": 29599453
   },
   "fullBuildUrl": ""
 }
