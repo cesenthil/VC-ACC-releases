@@ -1,11 +1,11 @@
 {
-  "version": "0.1.83",
-  "notes": "Buyers: Print Due List (A4 landscape, 3-up, Gents/Ladies, Tamil names) + Tamil-name field on the buyer form. Reports: A–Z quick-jump on the Individual list, sticky TOTAL footer, dashed amount-column separators, loan-list opens instantly on large data. Backup: shows all restore points, date no-wrap. Settings: Updates tile glows when an update is available. Entry screens: picking a date jumps to the next field.",
+  "version": "0.1.84",
+  "notes": "Print Due List polish: Gents/Ladies name colors + mild fill, Calibri (name 16 / rows 12), 4 buyers per row A4 landscape, grey rule above the running totals only, no C/O row, one-line settled entry, right-aligned footer with page id, buyer Edit-form Tamil-name fix.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.83/app.asar",
-    "sha256": "9bddc8768c80bc1b95c5467d2be055e7b99841f7855a6ebb7420571d9b1a71af",
-    "bytes": 29599453
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.84/app.asar",
+    "sha256": "c00a7a6c7484c9a0f422532bb9e593ef1b62a63b375a8b3b001db465e29a096d",
+    "bytes": 29605123
   },
   "fullBuildUrl": ""
 }
