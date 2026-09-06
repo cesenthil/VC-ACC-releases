@@ -1,11 +1,11 @@
 {
-  "version": "0.1.84",
-  "notes": "Print Due List polish: Gents/Ladies name colors + mild fill, Calibri (name 16 / rows 12), 4 buyers per row A4 landscape, grey rule above the running totals only, no C/O row, one-line settled entry, right-aligned footer with page id, buyer Edit-form Tamil-name fix.",
+  "version": "0.1.85",
+  "notes": "Due List: date position follows dad's convention — a payment-day date sits next to the amount column, a purchase-day date above the auction-price column; Settled line printed in a distinct colour.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.84/app.asar",
-    "sha256": "c00a7a6c7484c9a0f422532bb9e593ef1b62a63b375a8b3b001db465e29a096d",
-    "bytes": 29605123
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.85/app.asar",
+    "sha256": "634af2968f0d8bd6fe1fd92011ecef7873e6e875a77468693192f1359cdca843",
+    "bytes": 29606362
   },
   "fullBuildUrl": ""
 }
