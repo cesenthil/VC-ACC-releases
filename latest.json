@@ -1,11 +1,11 @@
 {
-  "version": "0.1.105",
-  "notes": "Invoice: (1) an eye icon by the 'Payable ₹' column header masks the payable rate from onlookers (the value stays live so Totals still compute); (2) fixed 'New Invoice' on the issued screen not returning the cursor to the seller box.",
+  "version": "0.1.106",
+  "notes": "Invoice: clearing the Bonus field now sets Bonus to ₹0 and recalculates the total (it was falling back to the auto default = commission). An untouched Bonus still auto-fills to the commission amount as before.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.105/app.asar",
-    "sha256": "836dd1d43242d48ce2a684bb9834e5d2ea9fe53aea6a6ee04d2f89fda2999d22",
-    "bytes": 29741067
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.106/app.asar",
+    "sha256": "68e9216e6705e9375afe5bc7ef72722585d65b220a5ac09bf9afd37ccfb4e91b",
+    "bytes": 29741466
   },
   "fullBuildUrl": ""
 }
