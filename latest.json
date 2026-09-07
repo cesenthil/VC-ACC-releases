@@ -1,11 +1,11 @@
 {
-  "version": "0.1.95",
-  "notes": "Address Book: Location & Gender required for buyers and sellers (Cash Sales exempt); sellers get a 'Name (Tamil)' field. Print Due List: gender toggle is All / Gents / Ladies (blue/green/gold); 'All' now shows the Gents pages then the Ladies pages, each keeping its own colour and Active-then-Dormant order (Gents 2 + Ladies 3 = 5 pages); the list builds only when you click 'Show list' (never auto-loads while scrolling the date); the rupee sign sits close to the amount in a straight column; the cleared-day 'நேர்' line no longer collides; dormant buyers get a grey banner + amber block border.",
+  "version": "0.1.96",
+  "notes": "Address Book: Name (Tamil) is now required for buyers and sellers (Cash Sales buyer exempt), alongside Location and Gender. (The seller Tamil field pre-fills correctly once names are generated.)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.95/app.asar",
-    "sha256": "805b9abce9774936f67b94d8b452be1864c4899aa3b7b0493b79d35163ff12cc",
-    "bytes": 29705290
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.96/app.asar",
+    "sha256": "3fc85fb0f5ce4b6d7b3edf1acabfab47abf04a1d7d17910afb19fda15b130c04",
+    "bytes": 29706445
   },
   "fullBuildUrl": ""
 }
