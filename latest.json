@@ -1,11 +1,11 @@
 {
-  "version": "0.1.98",
-  "notes": "Print Due List: within the Active group, buyers are now packed by best fit (Best-Fit-Decreasing) so each column fills to near-capacity and fewer columns/pages are used, instead of the old top-to-bottom order that left a tall gap whenever the next buyer didn't fit. Active and Dormant stay in separate columns (Dormant keeps its amber border).",
+  "version": "0.1.99",
+  "notes": "Jump to letter (A–Z quick-jump) added to five more screens: Buyer Reports Area-wise, Seller Reports Area-wise, Sellers, Buyers and Locations. On Area-wise it jumps by area name; on Sellers/Buyers/Locations by name. Letters with no rows are dimmed; it works alongside the search and gender/status filters.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.98/app.asar",
-    "sha256": "884df58072f441334ee1bf19d7b4763d8dbb9cef68dd5d89369dbe6709a35862",
-    "bytes": 29712143
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.99/app.asar",
+    "sha256": "6fd49f6503daff7582296c635d8c51381a48448c6a98a81ede2b871b69b7eba9",
+    "bytes": 29719866
   },
   "fullBuildUrl": ""
 }
