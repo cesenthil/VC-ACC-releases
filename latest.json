@@ -1,11 +1,11 @@
 {
-  "version": "0.1.90",
-  "notes": "Print Due List: day rows now show the full date (DD/MM/YYYY) with the Tamil weekday; the settled line uses the FULL Tamil weekday name (e.g. சனிக்கிழமை) and shows 'நேர்' in the amount column instead of the balance; the amount column is narrower (sized to fit ₹ 00,000.00), giving more room to the price/date column.",
+  "version": "0.1.91",
+  "notes": "Print Due List: the amount column is narrower with the rupee symbols kept in a straight vertical line (digits still right-aligned); the auction-price rupee sign stays inline as before; day-row dates line up (no dancing); and a cleared day shows '---- நேர் ----' across the amount column.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.90/app.asar",
-    "sha256": "2b446657112657074b93fdd50f0f36e61d2bf25d675ead3cec0f1087ab19f523",
-    "bytes": 29680898
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.91/app.asar",
+    "sha256": "f46e070b45783dbc1824b9dd42f681b3e6034a02fdad30addb1914ea6c344f3d",
+    "bytes": 29682299
   },
   "fullBuildUrl": ""
 }
