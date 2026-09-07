@@ -1,11 +1,11 @@
 {
-  "version": "0.1.99",
-  "notes": "Jump to letter (A–Z quick-jump) added to five more screens: Buyer Reports Area-wise, Seller Reports Area-wise, Sellers, Buyers and Locations. On Area-wise it jumps by area name; on Sellers/Buyers/Locations by name. Letters with no rows are dimmed; it works alongside the search and gender/status filters.",
+  "version": "0.1.100",
+  "notes": "Print Due List: the Print button now opens the Windows print dialog pre-set to Landscape for that print only (your Windows default is untouched). Settled line shortened (செவ்வாய்/சனி, no கிழமை) so it never collides with நேர் in the printer's wider Tamil font; நேர் shown as '----- நேர் -----'; the running-total/subtotal rule is darker; the List toggle order is now All / Ladies / Gents.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.99/app.asar",
-    "sha256": "6fd49f6503daff7582296c635d8c51381a48448c6a98a81ede2b871b69b7eba9",
-    "bytes": 29719866
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.100/app.asar",
+    "sha256": "8f701dcfeaf760b1c4f6172cc20f109fc1509c4e8ce5be078169ae8456bea2f0",
+    "bytes": 29723865
   },
   "fullBuildUrl": ""
 }
