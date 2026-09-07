@@ -1,11 +1,11 @@
 {
-  "version": "0.1.97",
-  "notes": "Print Due List: amount column resized to fit values up to 99,999.99 with the rupee sign straight at the left edge; wider spacing between the 4 sections per page; List toggle now opens on All. Dormant buyers again show the amber block border (a store field was being dropped). Seller Tamil names filled for invoices; buyer initials kept in English.",
+  "version": "0.1.98",
+  "notes": "Print Due List: within the Active group, buyers are now packed by best fit (Best-Fit-Decreasing) so each column fills to near-capacity and fewer columns/pages are used, instead of the old top-to-bottom order that left a tall gap whenever the next buyer didn't fit. Active and Dormant stay in separate columns (Dormant keeps its amber border).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.97/app.asar",
-    "sha256": "f3209868c2da60f71386459ad1046a869a6383f628caca1f47d422b98f90c9c6",
-    "bytes": 29707967
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.98/app.asar",
+    "sha256": "884df58072f441334ee1bf19d7b4763d8dbb9cef68dd5d89369dbe6709a35862",
+    "bytes": 29712143
   },
   "fullBuildUrl": ""
 }
