@@ -1,11 +1,11 @@
 {
-  "version": "0.1.102",
-  "notes": "Print Due List: settlement line font increased by 1 more point (now 10pt) for readability.",
+  "version": "0.1.103",
+  "notes": "Print Due List: the on-screen preview now renders a true A4-landscape sheet scaled to fit, so it matches the printed output 1:1 (previously the preview was a fluid, zoom-dependent box wider than the page). Settled line rebuilt as one full-width row (date left, நேர் right — no more collision), drops the year (DD/MM), and is set to 9.5pt.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.102/app.asar",
-    "sha256": "ba99495b8bb09d8ecd8bf5c959f042bd7349b23f36dd17fc8a7714a1698d7aa3",
-    "bytes": 29723871
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.103/app.asar",
+    "sha256": "05426c628c572c9b6c1c48352445a7f3ccb021dda17b305c756584a03dbf0b14",
+    "bytes": 29729843
   },
   "fullBuildUrl": ""
 }
