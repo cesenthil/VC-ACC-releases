@@ -1,11 +1,11 @@
 {
-  "version": "0.1.89",
-  "notes": "Print Due List formatting: buyer name 13pt / location 10pt; the 'முன்' opening label is smaller; weekday names now print in Tamil (ஞாயிறு…சனி) on every line; a settled day reads 'DD/MM/YYYY*<Tamil day> நேர்' (was 'Settled'), centered and a little larger, with the amount in the amount column (no /=), in purple; day-row dates are a bit smaller; buyers list Active first then Dormant with a grey name banner for dormant buyers.",
+  "version": "0.1.90",
+  "notes": "Print Due List: day rows now show the full date (DD/MM/YYYY) with the Tamil weekday; the settled line uses the FULL Tamil weekday name (e.g. சனிக்கிழமை) and shows 'நேர்' in the amount column instead of the balance; the amount column is narrower (sized to fit ₹ 00,000.00), giving more room to the price/date column.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.89/app.asar",
-    "sha256": "af845d220da93159198a3a0b22a93a8f0d81cf295f7f2cc75cf2fae4df2baf40",
-    "bytes": 29678415
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.90/app.asar",
+    "sha256": "2b446657112657074b93fdd50f0f36e61d2bf25d675ead3cec0f1087ab19f523",
+    "bytes": 29680898
   },
   "fullBuildUrl": ""
 }
