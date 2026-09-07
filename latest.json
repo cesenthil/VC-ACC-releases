@@ -1,11 +1,11 @@
 {
-  "version": "0.1.112",
-  "notes": "Dates: all date-picker boxes now display in DD/MM/YYYY (app UI language set to en-GB) regardless of the machine's Windows date format. Stored dates and money formatting are unchanged.",
+  "version": "0.1.113",
+  "notes": "Invoice: the Payable rate is now hidden by default (tap the eye to reveal). The 'save without Gate/Kooli/Vadagai' override checkbox + its text now sit on one line, left-aligned.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.112/app.asar",
-    "sha256": "71e62afb20e0f0217a8f5968592181699a1ee991c6d6b30fd3a77cb6dcf905a9",
-    "bytes": 29753493
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.113/app.asar",
+    "sha256": "c785285bded519581dc4282bb3536fe54c06ed94a6eb439075a3709bfa5c04e5",
+    "bytes": 29753726
   },
   "fullBuildUrl": ""
 }
