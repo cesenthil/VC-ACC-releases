@@ -1,11 +1,11 @@
 {
-  "version": "0.1.110",
-  "notes": "Split lot: reverted the per-Kattu default — rows again follow the lot's own price unit (as before v0.1.109).",
+  "version": "0.1.111",
+  "notes": "Cash Book: the 'Cash in hand' figure now shows in green when positive and red when negative.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.110/app.asar",
-    "sha256": "3050a91dd306157bfcf61f7e1681047657baeb836564f2b55c894880d35be510",
-    "bytes": 29743560
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.111/app.asar",
+    "sha256": "da44159293621cd603406dc1b48a14d9162633115ea004a81b445243c3b28cfc",
+    "bytes": 29744041
   },
   "fullBuildUrl": ""
 }
