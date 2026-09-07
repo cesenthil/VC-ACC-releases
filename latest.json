@@ -1,11 +1,11 @@
 {
-  "version": "0.1.108",
-  "notes": "Split lot: widened the Amount column (and the dialog) so larger line amounts like ₹ 17,000.00 no longer overflow or wrap.",
+  "version": "0.1.109",
+  "notes": "Split lot: rows now default to the per-Kattu (K) price mode. For a per-bag lot the pre-filled price is left blank (enter the per-kattu price); per-kattu lots keep their pre-filled price.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.108/app.asar",
-    "sha256": "4766992f8ddbb6cf7d0c540e4b8ef9bc65a0c97c10c884a55f8cef3cc7fa7bbe",
-    "bytes": 29743560
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.109/app.asar",
+    "sha256": "c4246685b5d36854a60126be7bbe2e3212829e43be99c546e13408c1c6e91b2e",
+    "bytes": 29744916
   },
   "fullBuildUrl": ""
 }
