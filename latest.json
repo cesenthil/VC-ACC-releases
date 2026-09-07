@@ -1,11 +1,11 @@
 {
-  "version": "0.1.96",
-  "notes": "Address Book: Name (Tamil) is now required for buyers and sellers (Cash Sales buyer exempt), alongside Location and Gender. (The seller Tamil field pre-fills correctly once names are generated.)",
+  "version": "0.1.97",
+  "notes": "Print Due List: amount column resized to fit values up to 99,999.99 with the rupee sign straight at the left edge; wider spacing between the 4 sections per page; List toggle now opens on All. Dormant buyers again show the amber block border (a store field was being dropped). Seller Tamil names filled for invoices; buyer initials kept in English.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.96/app.asar",
-    "sha256": "3fc85fb0f5ce4b6d7b3edf1acabfab47abf04a1d7d17910afb19fda15b130c04",
-    "bytes": 29706445
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.97/app.asar",
+    "sha256": "f3209868c2da60f71386459ad1046a869a6383f628caca1f47d422b98f90c9c6",
+    "bytes": 29707967
   },
   "fullBuildUrl": ""
 }
