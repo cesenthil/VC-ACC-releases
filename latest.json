@@ -1,11 +1,11 @@
 {
-  "version": "0.1.107",
-  "notes": "Invoice: the 'save without Gate/Kooli/Vadagai' override checkbox now stays hidden until you press Save; once the no-charges alert appears, Save is disabled until you tick the override. Split lot: the balance total's ₹ no longer wraps onto a second line.",
+  "version": "0.1.108",
+  "notes": "Split lot: widened the Amount column (and the dialog) so larger line amounts like ₹ 17,000.00 no longer overflow or wrap.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.107/app.asar",
-    "sha256": "6653d6de6eb3577aed371e53253906fbaba2b63327b933cce343ad30a638c4c0",
-    "bytes": 29743503
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.108/app.asar",
+    "sha256": "4766992f8ddbb6cf7d0c540e4b8ef9bc65a0c97c10c884a55f8cef3cc7fa7bbe",
+    "bytes": 29743560
   },
   "fullBuildUrl": ""
 }
