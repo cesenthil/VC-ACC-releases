@@ -1,11 +1,11 @@
 {
-  "version": "0.1.88",
-  "notes": "Print Due List: the 'முன்' opening line and the day dates are no longer bold; a settled day now prints on one line as '29/08/2026*Saturday Settled Rs X/=' in purple; buyers are listed Active first then Dormant, with a grey name banner for dormant buyers. Loan/Suspense transaction history: the Active/Closed filter now correctly treats settled legacy entries as Closed (only genuinely open items show under Active); every Void now asks for the VC password; and a card's balance refreshes immediately after a void.",
+  "version": "0.1.89",
+  "notes": "Print Due List formatting: buyer name 13pt / location 10pt; the 'முன்' opening label is smaller; weekday names now print in Tamil (ஞாயிறு…சனி) on every line; a settled day reads 'DD/MM/YYYY*<Tamil day> நேர்' (was 'Settled'), centered and a little larger, with the amount in the amount column (no /=), in purple; day-row dates are a bit smaller; buyers list Active first then Dormant with a grey name banner for dormant buyers.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.88/app.asar",
-    "sha256": "c72a79b745fadfe50208d66a6c1b1eba03b58f08ef654bac4234a011434da469",
-    "bytes": 29675413
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.89/app.asar",
+    "sha256": "af845d220da93159198a3a0b22a93a8f0d81cf295f7f2cc75cf2fae4df2baf40",
+    "bytes": 29678415
   },
   "fullBuildUrl": ""
 }
