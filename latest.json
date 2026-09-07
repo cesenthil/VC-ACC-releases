@@ -1,11 +1,11 @@
 {
-  "version": "0.1.106",
-  "notes": "Invoice: clearing the Bonus field now sets Bonus to ₹0 and recalculates the total (it was falling back to the auto default = commission). An untouched Bonus still auto-fills to the commission amount as before.",
+  "version": "0.1.107",
+  "notes": "Invoice: the 'save without Gate/Kooli/Vadagai' override checkbox now stays hidden until you press Save; once the no-charges alert appears, Save is disabled until you tick the override. Split lot: the balance total's ₹ no longer wraps onto a second line.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.106/app.asar",
-    "sha256": "68e9216e6705e9375afe5bc7ef72722585d65b220a5ac09bf9afd37ccfb4e91b",
-    "bytes": 29741466
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.107/app.asar",
+    "sha256": "6653d6de6eb3577aed371e53253906fbaba2b63327b933cce343ad30a638c4c0",
+    "bytes": 29743503
   },
   "fullBuildUrl": ""
 }
