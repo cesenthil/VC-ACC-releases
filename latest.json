@@ -1,11 +1,11 @@
 {
-  "version": "0.1.104",
-  "notes": "Invoice: a checkbox now lets you save an invoice WITHOUT Gate/Kooli/Vadagai charges (override — they post as 0) when none are entered in Charges Entry. Reports: fixed the TOTAL footer so a data row no longer peeks below it (scroll-container padding). Print Due List: settled date right-justified, page navigator moved into the header, removed the info line, and added a preview zoom (-/%/+).",
+  "version": "0.1.105",
+  "notes": "Invoice: (1) an eye icon by the 'Payable ₹' column header masks the payable rate from onlookers (the value stays live so Totals still compute); (2) fixed 'New Invoice' on the issued screen not returning the cursor to the seller box.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.104/app.asar",
-    "sha256": "65c0fb7ec4c4964a9bfa4ce7c7c7a955bfcf7fa527c660575415b502b80616f5",
-    "bytes": 29738020
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.105/app.asar",
+    "sha256": "836dd1d43242d48ce2a684bb9834e5d2ea9fe53aea6a6ee04d2f89fda2999d22",
+    "bytes": 29741067
   },
   "fullBuildUrl": ""
 }
