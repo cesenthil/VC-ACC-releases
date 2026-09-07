@@ -1,11 +1,11 @@
 {
-  "version": "0.1.91",
-  "notes": "Print Due List: the amount column is narrower with the rupee symbols kept in a straight vertical line (digits still right-aligned); the auction-price rupee sign stays inline as before; day-row dates line up (no dancing); and a cleared day shows '---- நேர் ----' across the amount column.",
+  "version": "0.1.92",
+  "notes": "Print Due List: day-row dates are centered; a cleared day reads 'DD/MM/YYYY*<full Tamil weekday> வரை' next to '---- நேர் ----' in the amount column (right-aligned, sized to stay on one line); and the preview no longer loads while you scroll the From Date — it builds only after you settle on a date (and nothing shows until a date is picked).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.91/app.asar",
-    "sha256": "f46e070b45783dbc1824b9dd42f681b3e6034a02fdad30addb1914ea6c344f3d",
-    "bytes": 29682299
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.92/app.asar",
+    "sha256": "f21b9b6bccd429b857e2e7d4f39d24fda2daebeabf431b86d195aef3c7924b5f",
+    "bytes": 29684476
   },
   "fullBuildUrl": ""
 }
