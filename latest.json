@@ -1,11 +1,11 @@
 {
-  "version": "0.1.87",
-  "notes": "Loan & Suspense transaction history: newest entries first, with an Active / Closed / All filter (default Active) and a Void button on each row. Write-offs (loan principal/interest and the suspense write-off) now require the VC (dad) password — the same password used for Data Backup; a wrong password is refused. Suspense Entry: the Kind toggle now reads Bill Advance / Credit / Debit on one line, with no option pre-selected — you must pick one before recording.",
+  "version": "0.1.88",
+  "notes": "Print Due List: the 'முன்' opening line and the day dates are no longer bold; a settled day now prints on one line as '29/08/2026*Saturday Settled Rs X/=' in purple; buyers are listed Active first then Dormant, with a grey name banner for dormant buyers. Loan/Suspense transaction history: the Active/Closed filter now correctly treats settled legacy entries as Closed (only genuinely open items show under Active); every Void now asks for the VC password; and a card's balance refreshes immediately after a void.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.87/app.asar",
-    "sha256": "0ab13330f60b4d57e8eff2e9a7d6ff9ff2c7dc67bfa4830f0557ecd0e21ce158",
-    "bytes": 29650595
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.88/app.asar",
+    "sha256": "c72a79b745fadfe50208d66a6c1b1eba03b58f08ef654bac4234a011434da469",
+    "bytes": 29675413
   },
   "fullBuildUrl": ""
 }
