@@ -1,11 +1,11 @@
 {
-  "version": "0.1.103",
-  "notes": "Print Due List: the on-screen preview now renders a true A4-landscape sheet scaled to fit, so it matches the printed output 1:1 (previously the preview was a fluid, zoom-dependent box wider than the page). Settled line rebuilt as one full-width row (date left, நேர் right — no more collision), drops the year (DD/MM), and is set to 9.5pt.",
+  "version": "0.1.104",
+  "notes": "Invoice: a checkbox now lets you save an invoice WITHOUT Gate/Kooli/Vadagai charges (override — they post as 0) when none are entered in Charges Entry. Reports: fixed the TOTAL footer so a data row no longer peeks below it (scroll-container padding). Print Due List: settled date right-justified, page navigator moved into the header, removed the info line, and added a preview zoom (-/%/+).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.103/app.asar",
-    "sha256": "05426c628c572c9b6c1c48352445a7f3ccb021dda17b305c756584a03dbf0b14",
-    "bytes": 29729843
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.104/app.asar",
+    "sha256": "65c0fb7ec4c4964a9bfa4ce7c7c7a955bfcf7fa527c660575415b502b80616f5",
+    "bytes": 29738020
   },
   "fullBuildUrl": ""
 }
