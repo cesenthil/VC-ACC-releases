@@ -1,11 +1,11 @@
 {
-  "version": "0.1.92",
-  "notes": "Print Due List: day-row dates are centered; a cleared day reads 'DD/MM/YYYY*<full Tamil weekday> வரை' next to '---- நேர் ----' in the amount column (right-aligned, sized to stay on one line); and the preview no longer loads while you scroll the From Date — it builds only after you settle on a date (and nothing shows until a date is picked).",
+  "version": "0.1.93",
+  "notes": "Print Due List: the 'முன்' opening label and all day-row dates are right-justified next to the amount column (one consistent alignment); the dates read 'DD/MM/YYYY*<Tamil weekday> :'; and the rupee signs in the amount column now line up straight on every row (including the date/payment rows).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.92/app.asar",
-    "sha256": "f21b9b6bccd429b857e2e7d4f39d24fda2daebeabf431b86d195aef3c7924b5f",
-    "bytes": 29684476
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.93/app.asar",
+    "sha256": "fb118e984af81bb0cb34473ccc3fda76198363af7e38d5f45c41068c773414f9",
+    "bytes": 29684978
   },
   "fullBuildUrl": ""
 }
