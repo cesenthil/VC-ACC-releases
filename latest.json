@@ -1,11 +1,11 @@
 {
-  "version": "0.1.86",
-  "notes": "Collections & Charges Entry: a party already listed on the day sheet no longer appears in the name suggestions. Loan Repayment/Advance: after saving and clicking OK the screen keeps the date and returns focus to the name for the next party; the Principal box is disabled when there is no principal outstanding; the confirmation now says 'IL0007 Closed' when a receipt closes a loan and 'New IL0007 has been created' for a new advance; the loan Transaction History lists newest-first with an Active / Closed / All filter (default Active).",
+  "version": "0.1.87",
+  "notes": "Loan & Suspense transaction history: newest entries first, with an Active / Closed / All filter (default Active) and a Void button on each row. Write-offs (loan principal/interest and the suspense write-off) now require the VC (dad) password — the same password used for Data Backup; a wrong password is refused. Suspense Entry: the Kind toggle now reads Bill Advance / Credit / Debit on one line, with no option pre-selected — you must pick one before recording.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.86/app.asar",
-    "sha256": "b4e0068e8c4e197071ac6c815c74a609e380747024a3499e515b8059f88ecce4",
-    "bytes": 29626965
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.87/app.asar",
+    "sha256": "0ab13330f60b4d57e8eff2e9a7d6ff9ff2c7dc67bfa4830f0557ecd0e21ce158",
+    "bytes": 29650595
   },
   "fullBuildUrl": ""
 }
