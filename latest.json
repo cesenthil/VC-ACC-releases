@@ -1,11 +1,11 @@
 {
-  "version": "0.1.109",
-  "notes": "Split lot: rows now default to the per-Kattu (K) price mode. For a per-bag lot the pre-filled price is left blank (enter the per-kattu price); per-kattu lots keep their pre-filled price.",
+  "version": "0.1.110",
+  "notes": "Split lot: reverted the per-Kattu default — rows again follow the lot's own price unit (as before v0.1.109).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.109/app.asar",
-    "sha256": "c4246685b5d36854a60126be7bbe2e3212829e43be99c546e13408c1c6e91b2e",
-    "bytes": 29744916
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.110/app.asar",
+    "sha256": "3050a91dd306157bfcf61f7e1681047657baeb836564f2b55c894880d35be510",
+    "bytes": 29743560
   },
   "fullBuildUrl": ""
 }
