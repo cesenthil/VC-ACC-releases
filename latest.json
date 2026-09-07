@@ -1,11 +1,11 @@
 {
-  "version": "0.1.111",
-  "notes": "Cash Book: the 'Cash in hand' figure now shows in green when positive and red when negative.",
+  "version": "0.1.112",
+  "notes": "Dates: all date-picker boxes now display in DD/MM/YYYY (app UI language set to en-GB) regardless of the machine's Windows date format. Stored dates and money formatting are unchanged.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.111/app.asar",
-    "sha256": "da44159293621cd603406dc1b48a14d9162633115ea004a81b445243c3b28cfc",
-    "bytes": 29744041
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.112/app.asar",
+    "sha256": "71e62afb20e0f0217a8f5968592181699a1ee991c6d6b30fd3a77cb6dcf905a9",
+    "bytes": 29753493
   },
   "fullBuildUrl": ""
 }
