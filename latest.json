@@ -1,11 +1,11 @@
 {
-  "version": "0.1.101",
-  "notes": "Print Due List: in All mode the Ladies pages now print before the Gents pages; the settlement line font is 1pt larger for readability.",
+  "version": "0.1.102",
+  "notes": "Print Due List: settlement line font increased by 1 more point (now 10pt) for readability.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.101/app.asar",
-    "sha256": "742d7189e24a58929a069bef31f328858dc5bbb340b7eef4c2aeb7a83f19bdb0",
-    "bytes": 29723867
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.102/app.asar",
+    "sha256": "ba99495b8bb09d8ecd8bf5c959f042bd7349b23f36dd17fc8a7714a1698d7aa3",
+    "bytes": 29723871
   },
   "fullBuildUrl": ""
 }
