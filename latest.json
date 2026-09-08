@@ -1,11 +1,11 @@
 {
-  "version": "0.1.118",
-  "notes": "Buyer Individual ledger (Betel) redesigned to read like the book: one row per day with the weekday shown (25/08/2026 [Tue]), a single merged Date, Payment and Balance per day, a Payment column instead of separate payment rows, and the account split into Current (open cycle) vs History (earlier settled cycles) with the carried-forward Opening (முன்) shown. History detects a settle (நேர்) when a payment squares the carried balance before that day's new purchases. Left pane gains a date-range filter and an All/Betel/Payment toggle. Amount columns keep the ₹ in a straight column, close to the digits. Clicking a Split/Invoice link, editing and pressing Update now returns you to the same buyer's ledger instead of Home.",
+  "version": "0.1.119",
+  "notes": "Buyer Betel ledger: the date filter is now a single 'From' picker (removed the 'To' box) — show the account from a chosen date onward.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.118/app.asar",
-    "sha256": "84a90398319f448b39fa54e35dc8270f19cdb8698b7d29494cb3c3e1fc7eb88e",
-    "bytes": 66376909
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.119/app.asar",
+    "sha256": "0d93d26cae35ddc5febd0f9b388809ccb41e6e17b2b0e063b08c62d389aa1b02",
+    "bytes": 66375509
   },
   "fullBuildUrl": ""
 }
