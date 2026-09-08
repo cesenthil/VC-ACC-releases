@@ -1,11 +1,11 @@
 {
-  "version": "0.1.116",
-  "notes": "Tamil names decoupled from location (fix a location once in the Location master; sellers/buyers now carry name only). Seller patti: buyer names in Tamil (Cash Sale = ரொக்கம்), firm name in the app serif, Tamil weekday, dd-mm-yyyy date. Cash Book: all line items always listed in order with double-line group separators; Cash Tally locked until Expenses/Payments/Receipts are saved, all invoices paid, and Buyer Betel Collections entered (flashing shortcut to enter). Invoice screen: rupee column aligned, Payable header on one line. Due List/slip: drop the redundant single-line subtotal.",
+  "version": "0.1.117",
+  "notes": "Cash Book polish: sign-coloured Diff badges for Cash Sales & Gate/Kooli/Vadagai (no more whole-line red), steady fixed columns when switching days, Expenses/Payments/Receipts as one block, card-style CASH BOOK banner with Cash Per Book value on the header (green +ve / red -ve, white title), unified table headers, tighter header gap. Reports: even amount columns on Individual & Area-wise for buyers & sellers, centred Parties count. Buyer Due List: copy a buyer's card image for WhatsApp + open their chat; +91 phone entry and inline phone editing in Seller/Buyer lists.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.116/app.asar",
-    "sha256": "49c3b47917ff7cce4afc9545acf7743521361ac4e93d67f99cccb9253f04a466",
-    "bytes": 29915891
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.117/app.asar",
+    "sha256": "f9743d72222fabf83c9b1500f1225bdfbccf644c7be44a8623b487b35d0699f7",
+    "bytes": 66313024
   },
   "fullBuildUrl": ""
 }
