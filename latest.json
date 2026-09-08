@@ -1,11 +1,11 @@
 {
-  "version": "0.1.117",
-  "notes": "Cash Book polish: sign-coloured Diff badges for Cash Sales & Gate/Kooli/Vadagai (no more whole-line red), steady fixed columns when switching days, Expenses/Payments/Receipts as one block, card-style CASH BOOK banner with Cash Per Book value on the header (green +ve / red -ve, white title), unified table headers, tighter header gap. Reports: even amount columns on Individual & Area-wise for buyers & sellers, centred Parties count. Buyer Due List: copy a buyer's card image for WhatsApp + open their chat; +91 phone entry and inline phone editing in Seller/Buyer lists.",
+  "version": "0.1.118",
+  "notes": "Buyer Individual ledger (Betel) redesigned to read like the book: one row per day with the weekday shown (25/08/2026 [Tue]), a single merged Date, Payment and Balance per day, a Payment column instead of separate payment rows, and the account split into Current (open cycle) vs History (earlier settled cycles) with the carried-forward Opening (முன்) shown. History detects a settle (நேர்) when a payment squares the carried balance before that day's new purchases. Left pane gains a date-range filter and an All/Betel/Payment toggle. Amount columns keep the ₹ in a straight column, close to the digits. Clicking a Split/Invoice link, editing and pressing Update now returns you to the same buyer's ledger instead of Home.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.117/app.asar",
-    "sha256": "f9743d72222fabf83c9b1500f1225bdfbccf644c7be44a8623b487b35d0699f7",
-    "bytes": 66313024
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.118/app.asar",
+    "sha256": "84a90398319f448b39fa54e35dc8270f19cdb8698b7d29494cb3c3e1fc7eb88e",
+    "bytes": 66376909
   },
   "fullBuildUrl": ""
 }
