@@ -1,11 +1,11 @@
 {
-  "version": "0.1.114",
-  "notes": "Invoice: fixed the 'save without Gate/Kooli/Vadagai' override checkbox rendering as a huge full-width box — checkboxes now keep their natural size, so the checkbox + text sit neatly on one line.",
+  "version": "0.1.115",
+  "notes": "VCA222: 80mm thermal receipt printing. Print Due List -> Print Slips (per-buyer due slips, active buyers) + per-buyer picker; Invoice view -> Print Invoice (compact seller patti). Tamil, betel-leaf hero, preview-before-print, and silent printing to a chosen Receipt printer (Settings).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.114/app.asar",
-    "sha256": "1c641612aee4f4b6977d5742cad23606ff2109729a7ea99510444c96c590d646",
-    "bytes": 29754137
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.115/app.asar",
+    "sha256": "bb701c3e56bf15f21e50c1c87dc2e255b19e4cb729cdf7ff15b6f5a8dce7bad7",
+    "bytes": 29869450
   },
   "fullBuildUrl": ""
 }
