@@ -1,11 +1,11 @@
 {
-  "version": "0.1.115",
-  "notes": "VCA222: 80mm thermal receipt printing. Print Due List -> Print Slips (per-buyer due slips, active buyers) + per-buyer picker; Invoice view -> Print Invoice (compact seller patti). Tamil, betel-leaf hero, preview-before-print, and silent printing to a chosen Receipt printer (Settings).",
+  "version": "0.1.116",
+  "notes": "Tamil names decoupled from location (fix a location once in the Location master; sellers/buyers now carry name only). Seller patti: buyer names in Tamil (Cash Sale = ரொக்கம்), firm name in the app serif, Tamil weekday, dd-mm-yyyy date. Cash Book: all line items always listed in order with double-line group separators; Cash Tally locked until Expenses/Payments/Receipts are saved, all invoices paid, and Buyer Betel Collections entered (flashing shortcut to enter). Invoice screen: rupee column aligned, Payable header on one line. Due List/slip: drop the redundant single-line subtotal.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.115/app.asar",
-    "sha256": "bb701c3e56bf15f21e50c1c87dc2e255b19e4cb729cdf7ff15b6f5a8dce7bad7",
-    "bytes": 29869450
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.116/app.asar",
+    "sha256": "49c3b47917ff7cce4afc9545acf7743521361ac4e93d67f99cccb9253f04a466",
+    "bytes": 29915891
   },
   "fullBuildUrl": ""
 }
