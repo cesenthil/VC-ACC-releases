@@ -1,11 +1,11 @@
 {
-  "version": "0.1.120",
-  "notes": "Receipt & print batch. Buyer slip: below the Balance (now just நிலுவை) a hand-write area — தேதி/வரவு ₹ line, நிலுவை ₹ line, and a கையொப்பம் (signature) line — plus looser line spacing up top and a double rule under the date/time. Print All now prints EVERY slip (was printing only the first). New per-buyer Print Slip Yes/No toggle in Address Book → Buyers; Print All prints only buyers set to Yes (default Yes). The '|' before a name on the seller patti now marks a split (multiple buyers) — single-buyer names have none. Hero phone updated to 89399-88999. Nudged the receipt layout left to sit centred on the roll.",
+  "version": "0.1.121",
+  "notes": "Print All (bulk buyer slips) fix: a silent print job whose driver never calls back was hanging the batch after the first slip. Each job now has a timeout so the batch always advances and prints every enabled slip. Requires a full app relaunch after updating (main-process change).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.120/app.asar",
-    "sha256": "8656d0e4e40d7675eb622fea7074630072f449c3879db5f01fd5142a0b651390",
-    "bytes": 66387424
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.121/app.asar",
+    "sha256": "1673ed0ed9bd688cc502fc2c916d6d044b093bbe957d1832f803fb4b69f67bec",
+    "bytes": 66389779
   },
   "fullBuildUrl": ""
 }
