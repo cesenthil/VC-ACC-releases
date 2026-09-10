@@ -1,11 +1,11 @@
 {
-  "version": "0.1.121",
-  "notes": "Print All (bulk buyer slips) fix: a silent print job whose driver never calls back was hanging the batch after the first slip. Each job now has a timeout so the batch always advances and prints every enabled slip. Requires a full app relaunch after updating (main-process change).",
+  "version": "0.1.122",
+  "notes": "New app icon — the V.C & Co. betel leaf replaces the generic Electron logo. The leaf shows on the taskbar/window right after this update. The desktop-shortcut/Explorer icon updates after a one-time full re-install: download the installer, unzip, and run Install.bat (your data is never touched).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.121/app.asar",
-    "sha256": "1673ed0ed9bd688cc502fc2c916d6d044b093bbe957d1832f803fb4b69f67bec",
-    "bytes": 66389779
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.122/app.asar",
+    "sha256": "47a997bc5fe817710ca6d1162125211ee5526bd32be09017679c83d1a7b80b2b",
+    "bytes": 66715549
   },
-  "fullBuildUrl": ""
+  "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
