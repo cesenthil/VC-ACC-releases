@@ -1,11 +1,11 @@
 {
-  "version": "0.1.122",
-  "notes": "New app icon — the V.C & Co. betel leaf replaces the generic Electron logo. The leaf shows on the taskbar/window right after this update. The desktop-shortcut/Explorer icon updates after a one-time full re-install: download the installer, unzip, and run Install.bat (your data is never touched).",
+  "version": "0.1.123",
+  "notes": "Update to v0.1.123",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.122/app.asar",
-    "sha256": "47a997bc5fe817710ca6d1162125211ee5526bd32be09017679c83d1a7b80b2b",
-    "bytes": 66715549
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.123/app.asar",
+    "sha256": "269a70f40558381bc9d7af947e3775a20f6cb646646f3eabf01e624e426e8450",
+    "bytes": 66720887
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
