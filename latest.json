@@ -1,11 +1,11 @@
 {
-  "version": "0.1.123",
-  "notes": "Update to v0.1.123",
+  "version": "0.1.124",
+  "notes": "Update to v0.1.124",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.123/app.asar",
-    "sha256": "269a70f40558381bc9d7af947e3775a20f6cb646646f3eabf01e624e426e8450",
-    "bytes": 66720887
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.124/app.asar",
+    "sha256": "5ec47ca22f1ab4b2d19ca21f45d79e0aa3c6750ab2af725d5ebab5ad2ac16123",
+    "bytes": 66738898
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
