@@ -1,11 +1,11 @@
 {
-  "version": "0.1.131",
-  "notes": "VCA277: date fields no longer auto-open the calendar on entry screens (field still autofocuses; click the calendar icon to open).",
+  "version": "0.1.132",
+  "notes": "VCA278: real completion progress bar for Backup & Restore (byte-progress, matches button height); invoice recovery warning reworded to a neat 2-line summary (IL/HL principal+interest | Bill Advance | Suspense Cr/Dr) with Save disabled until deducted or override ticked; Suspense recovery cell now glows; Updates tile shows version + Download on the 2nd line.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.131/app.asar",
-    "sha256": "360ffd41fbea90239d6b9ae7410f7329edd914a26170bc4b6db8ecdcad7b9829",
-    "bytes": 66832909
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.132/app.asar",
+    "sha256": "b75a22ea409bed8aa88c67936b4f06dec75750c98f717e520b64b99b1b630f80",
+    "bytes": 66844675
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
