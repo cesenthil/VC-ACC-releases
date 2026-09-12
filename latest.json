@@ -1,11 +1,11 @@
 {
-  "version": "0.1.129",
-  "notes": "VCA260-269: per-entry Suspense loans (SU# each) with Cr/Dr chips, real balances, Notes column, multi-select account cards; Bill-Advance default; invoice recovery guard; collections auto-open on existing day + cash-book edit icon; Seller Invoice Payments / Invoice Paid Thru UPI renames; GKV count excludes counter.",
+  "version": "0.1.130",
+  "notes": "VCA270-276: backup/restore progress bar; ledger Notes column +20%; Updates tile version wraps; bigger Backup date badge; removed invoice Back-To-Register (hero Back covers it); landing cards even/compact with larger centre brand; dashboard month reads MMM-YYYY.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.129/app.asar",
-    "sha256": "4e613c25582f8df3bbb288ccee07eef6347af6205f0a1f813b4940446dfaa4f5",
-    "bytes": 66825996
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.130/app.asar",
+    "sha256": "a292d82acc722eb8f53384ec640707f81a40845ea959c6f2c88cd0e6dff3e2a2",
+    "bytes": 66834245
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
