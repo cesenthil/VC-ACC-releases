@@ -1,11 +1,11 @@
 {
-  "version": "0.1.133",
-  "notes": "VCA279 invoice recovery alert is reactive (an item drops off as it's deducted/knocked off); VCA280 Cash Book Seller Suspense drill shows each entry's note on a sub-line, using the real suspense description (not the generic patti ref).",
+  "version": "0.1.134",
+  "notes": "VCA282: global error safety net — uncaught event-handler/async errors now show a dismissible Reload banner with the error text (recover without a full restart) instead of a silent freeze; complements the existing render-crash ErrorBoundary.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.133/app.asar",
-    "sha256": "fe7bef840207181d144f1d50db3734458705fa2801594d659434ab221c70aecf",
-    "bytes": 66852546
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.134/app.asar",
+    "sha256": "a67b001510ef03f9e5dc807ba9489647ad41d823edf53b4403824ff8425f5508",
+    "bytes": 66859589
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
