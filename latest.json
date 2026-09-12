@@ -1,11 +1,11 @@
 {
-  "version": "0.1.130",
-  "notes": "VCA270-276: backup/restore progress bar; ledger Notes column +20%; Updates tile version wraps; bigger Backup date badge; removed invoice Back-To-Register (hero Back covers it); landing cards even/compact with larger centre brand; dashboard month reads MMM-YYYY.",
+  "version": "0.1.131",
+  "notes": "VCA277: date fields no longer auto-open the calendar on entry screens (field still autofocuses; click the calendar icon to open).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.130/app.asar",
-    "sha256": "a292d82acc722eb8f53384ec640707f81a40845ea959c6f2c88cd0e6dff3e2a2",
-    "bytes": 66834245
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.131/app.asar",
+    "sha256": "360ffd41fbea90239d6b9ae7410f7329edd914a26170bc4b6db8ecdcad7b9829",
+    "bytes": 66832909
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
