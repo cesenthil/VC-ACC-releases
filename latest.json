@@ -1,11 +1,11 @@
 {
-  "version": "0.1.132",
-  "notes": "VCA278: real completion progress bar for Backup & Restore (byte-progress, matches button height); invoice recovery warning reworded to a neat 2-line summary (IL/HL principal+interest | Bill Advance | Suspense Cr/Dr) with Save disabled until deducted or override ticked; Suspense recovery cell now glows; Updates tile shows version + Download on the 2nd line.",
+  "version": "0.1.133",
+  "notes": "VCA279 invoice recovery alert is reactive (an item drops off as it's deducted/knocked off); VCA280 Cash Book Seller Suspense drill shows each entry's note on a sub-line, using the real suspense description (not the generic patti ref).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.132/app.asar",
-    "sha256": "b75a22ea409bed8aa88c67936b4f06dec75750c98f717e520b64b99b1b630f80",
-    "bytes": 66844675
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.133/app.asar",
+    "sha256": "fe7bef840207181d144f1d50db3734458705fa2801594d659434ab221c70aecf",
+    "bytes": 66852546
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
