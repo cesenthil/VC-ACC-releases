@@ -1,11 +1,11 @@
 {
-  "version": "0.1.137",
-  "notes": "Split screen: the 'Add Sus.A/C — Price Gap' button now shows the gap amount on the button itself (e.g. [ ₹ 760 ]) so you can see it before clicking, and 'Price Gap' is capitalised.",
+  "version": "0.1.138",
+  "notes": "Split screen: the Payable / Paid / Difference check now appears only once the split balances (Balance ✓) — while you're still entering quantities it stays hidden, so the half-computed Difference no longer shows a big negative amount wrapping to two lines.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.137/app.asar",
-    "sha256": "215580b9b80381c9ecd704ea2daa80c208a638182d5ea4a345aef97d17eb6b42",
-    "bytes": 66932082
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.138/app.asar",
+    "sha256": "26c07cb6b0a2dfabe23f3774de4590206bfb40fa6584dcd9dd5d0dc9879dfd47",
+    "bytes": 66932576
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
