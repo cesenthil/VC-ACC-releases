@@ -1,11 +1,11 @@
 {
-  "version": "0.1.134",
-  "notes": "VCA282: global error safety net — uncaught event-handler/async errors now show a dismissible Reload banner with the error text (recover without a full restart) instead of a silent freeze; complements the existing render-crash ErrorBoundary.",
+  "version": "0.1.135",
+  "notes": "Split screen catches a wrong auction price. A new Payable / Paid / Difference check shows the real gain %, and a one-click 'Add Sus.A/C — price gap' books the seller a Debit/Credit for the mismatch and restores the spread (with a 'proceed without' option). The average-price (∑) calculator now also works for per-kattu 'K' lines. Disabled buttons now clearly look disabled.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.134/app.asar",
-    "sha256": "a67b001510ef03f9e5dc807ba9489647ad41d823edf53b4403824ff8425f5508",
-    "bytes": 66859589
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.135/app.asar",
+    "sha256": "48198a1526bbf445b26a391750925feabdaecfac1e59e998237052ecb037056e",
+    "bytes": 66918069
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
