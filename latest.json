@@ -1,11 +1,11 @@
 {
-  "version": "0.1.135",
-  "notes": "Split screen catches a wrong auction price. A new Payable / Paid / Difference check shows the real gain %, and a one-click 'Add Sus.A/C — price gap' books the seller a Debit/Credit for the mismatch and restores the spread (with a 'proceed without' option). The average-price (∑) calculator now also works for per-kattu 'K' lines. Disabled buttons now clearly look disabled.",
+  "version": "0.1.136",
+  "notes": "Cash Book — Seller Suspense drill: an exact Debit/Credit counter-pair (e.g. a Bill Advance given then knocked off on the invoice) now shows on one name line with both amounts on its note line, instead of four separate lines.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.135/app.asar",
-    "sha256": "48198a1526bbf445b26a391750925feabdaecfac1e59e998237052ecb037056e",
-    "bytes": 66918069
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.136/app.asar",
+    "sha256": "d6c6b67c9282aad4073268a7d383650754c16938667ef3326a6fcdfc53650da1",
+    "bytes": 66931825
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
