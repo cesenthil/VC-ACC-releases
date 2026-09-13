@@ -1,11 +1,11 @@
 {
-  "version": "0.1.136",
-  "notes": "Cash Book — Seller Suspense drill: an exact Debit/Credit counter-pair (e.g. a Bill Advance given then knocked off on the invoice) now shows on one name line with both amounts on its note line, instead of four separate lines.",
+  "version": "0.1.137",
+  "notes": "Split screen: the 'Add Sus.A/C — Price Gap' button now shows the gap amount on the button itself (e.g. [ ₹ 760 ]) so you can see it before clicking, and 'Price Gap' is capitalised.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.136/app.asar",
-    "sha256": "d6c6b67c9282aad4073268a7d383650754c16938667ef3326a6fcdfc53650da1",
-    "bytes": 66931825
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.137/app.asar",
+    "sha256": "215580b9b80381c9ecd704ea2daa80c208a638182d5ea4a345aef97d17eb6b42",
+    "bytes": 66932082
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
