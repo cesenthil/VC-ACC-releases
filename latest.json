@@ -1,11 +1,11 @@
 {
-  "version": "0.1.139",
-  "notes": "Buyers Collection: after saving, the list is sorted A-Z by buyer name (the Cash Sales row stays on top). Seller Report: a Father column now appears next to the Seller column.",
+  "version": "0.1.140",
+  "notes": "Seller Report: the new Father column now has the same dashed vertical separator after the Seller column, matching the other columns.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.139/app.asar",
-    "sha256": "5f09ab50e435bd5d85d1e6fba003c7cee9c4b8c04c2147c1779f58c38960dca9",
-    "bytes": 66936808
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.140/app.asar",
+    "sha256": "a423f0ae2fe572750e500ddea0c964f5173dcead9e7940d88b1bb8719dd3432e",
+    "bytes": 66939339
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
