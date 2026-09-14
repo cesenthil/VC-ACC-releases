@@ -1,11 +1,11 @@
 {
-  "version": "0.1.140",
-  "notes": "Seller Report: the new Father column now has the same dashed vertical separator after the Seller column, matching the other columns.",
+  "version": "0.1.141",
+  "notes": "Back-up-before-closing dialog no longer auto-closes: once it's on screen it waits for you to choose (New backup / Replace / Skip / Keep open). The 15s safety auto-close now only applies if the dialog can't be shown at all (a blank/crashed screen); pressing the window X again still force-closes.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.140/app.asar",
-    "sha256": "a423f0ae2fe572750e500ddea0c964f5173dcead9e7940d88b1bb8719dd3432e",
-    "bytes": 66939339
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.141/app.asar",
+    "sha256": "e1a32fe4e5f5e9d4647de98c6a4336ed243eabec9bc28be6bf26ac6c440dc57d",
+    "bytes": 66941714
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
