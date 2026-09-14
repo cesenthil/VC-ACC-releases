@@ -1,11 +1,11 @@
 {
-  "version": "0.1.138",
-  "notes": "Split screen: the Payable / Paid / Difference check now appears only once the split balances (Balance ✓) — while you're still entering quantities it stays hidden, so the half-computed Difference no longer shows a big negative amount wrapping to two lines.",
+  "version": "0.1.139",
+  "notes": "Buyers Collection: after saving, the list is sorted A-Z by buyer name (the Cash Sales row stays on top). Seller Report: a Father column now appears next to the Seller column.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.138/app.asar",
-    "sha256": "26c07cb6b0a2dfabe23f3774de4590206bfb40fa6584dcd9dd5d0dc9879dfd47",
-    "bytes": 66932576
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.139/app.asar",
+    "sha256": "5f09ab50e435bd5d85d1e6fba003c7cee9c4b8c04c2147c1779f58c38960dca9",
+    "bytes": 66936808
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
