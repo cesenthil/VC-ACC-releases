@@ -1,11 +1,11 @@
 {
-  "version": "0.1.141",
-  "notes": "Back-up-before-closing dialog no longer auto-closes: once it's on screen it waits for you to choose (New backup / Replace / Skip / Keep open). The 15s safety auto-close now only applies if the dialog can't be shown at all (a blank/crashed screen); pressing the window X again still force-closes.",
+  "version": "0.1.142",
+  "notes": "Print Due List: the per-card printer icon and the 'One buyer's slip' search now work for ANY buyer in the view — an active buyer marked 'Print Slip: No' (or a dormant one) can be printed individually, and the search lists every buyer (matching name or village). The 'Print Slips' bulk button still respects the Yes/No flag.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.141/app.asar",
-    "sha256": "e1a32fe4e5f5e9d4647de98c6a4336ed243eabec9bc28be6bf26ac6c440dc57d",
-    "bytes": 66941714
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.142/app.asar",
+    "sha256": "d017f23e953a6471c894f724c50d674786678a7f5db8552728353a4a058e2fba",
+    "bytes": 66942571
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
