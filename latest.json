@@ -1,11 +1,11 @@
 {
-  "version": "0.1.143",
-  "notes": "Split screen: a quantity Sus.A/C now correctly fixes the spread. When a lot's quantity was over/under-entered and you add the quantity Sus.A/C, the margin now recalculates healthy (it was ignoring that adjustment and wrongly prompting for a price-gap suspense too). Also, reopening a split now shows the Sus.A/C rows it created, and the Paid amount reflects the suspense.",
+  "version": "0.1.144",
+  "notes": "Split View/Edit list now defaults to Invoice# descending (newest first). Cash Book → Cash Sales drill: dropped the seller name for space, and the bill# is now a link — click it to see just that bill's cash lines in a small popup (not the whole invoice).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.143/app.asar",
-    "sha256": "ad3f919dd1c8f162c1219b04b37721a51581e1e4d3fcad8f00a912ebf1153b31",
-    "bytes": 66949839
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.144/app.asar",
+    "sha256": "099aa92156723583b4ed6a84a45038b5cf7f017b30d765b3bc2444fe72b38a1f",
+    "bytes": 66960017
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
