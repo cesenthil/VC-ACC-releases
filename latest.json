@@ -1,11 +1,11 @@
 {
-  "version": "0.1.161",
-  "notes": "VCA306 (v3): both paint-timing fixes (paintWhenInitiallyHidden, off-screen-shown window) still printed blank on dad's GPU. Root evidence: on that hardware silent HTML print() AND capturePage come out blank, but printToPDF renders the same slip correctly (it powers the WhatsApp slip image). So printReceipt now renders the slip to a PDF and prints the PDF — Chromium's PDFium print path doesn't depend on the HTML compositor that's failing on his GPU. The PDF encodes the exact 80mm width + content height, which also fixes the short mis-cut. Direct HTML print kept as fallback. Needs on-hardware verification.",
+  "version": "0.1.162",
+  "notes": "VCA306 (v4 - real silent print): Chromium's silent print pipeline is broken on dad's KP307 driver - every variant (HTML, off-screen window, pre-rendered PDF) printed BLANK, while the Ask-each-time dialog always worked. Fix: bundle SumatraPDF (official signed 3.6.1, inside app.asar so it rides the normal update). For a silent job the app renders the slip to a PDF (proven correct on his machine) and SumatraPDF prints it straight to the chosen printer via Windows' own print engine - no dialog, real content, correct cut length. Ask-each-time still uses the working dialog. Note: this update is ~20MB larger. Needs on-hardware verification.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.161/app.asar",
-    "sha256": "9cd5666297cf67197a9565435092436d562063f93ddfe677c0add5c002f0406b",
-    "bytes": 67108147
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.162/app.asar",
+    "sha256": "802422c5e90db6b6027a13538540f1e343bfd68a7814744d593f63bcda2ff7e6",
+    "bytes": 87411226
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
