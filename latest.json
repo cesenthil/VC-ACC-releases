@@ -1,11 +1,11 @@
 {
-  "version": "0.1.157",
-  "notes": "VCA303: nudged the diagonal 'Carry Over' stamp further right (left:64px) so it sits roughly centred within the column, clear of both borders.",
+  "version": "0.1.158",
+  "notes": "VCA305: fix thermal printing wedging until an app restart. report:printReceipt created+destroyed a hidden BrowserWindow per job; across many prints in one session that churn wedged Chromium's print subsystem entirely (dad's KP307 stopped printing; only a restart cleared it). Now ONE hidden print window is reused (never destroyed) and jobs are serialized with a spooler-settle delay, so nothing accumulates. Main-process change → auto-relaunch on update. Needs on-hardware verification (single prints + Print All batch + a full busy session).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.157/app.asar",
-    "sha256": "94fe178ad99f414ed1f8b3bca3ffcfdc1028759cd7ccca04664c92357fde569e",
-    "bytes": 67098856
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.158/app.asar",
+    "sha256": "02fccd6c8cfe9741fd14c4afdcc4cd858531343feb60ce6c60a8178007226673",
+    "bytes": 67100776
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
