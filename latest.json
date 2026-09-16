@@ -1,10 +1,10 @@
 {
-  "version": "0.1.156",
-  "notes": "VCA303: the Due List part-number badge is now a navy circle with a white number, and a multi-column card's title is centred within the space excluding the badge (symmetric banner padding) so the name never overlaps the badge.",
+  "version": "0.1.157",
+  "notes": "VCA303: nudged the diagonal 'Carry Over' stamp further right (left:64px) so it sits roughly centred within the column, clear of both borders.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.156/app.asar",
-    "sha256": "a968ae694b5ac499289a2ee0cf1d6351b215ab7935b62bfc6380caf3862138dc",
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.157/app.asar",
+    "sha256": "94fe178ad99f414ed1f8b3bca3ffcfdc1028759cd7ccca04664c92357fde569e",
     "bytes": 67098856
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
