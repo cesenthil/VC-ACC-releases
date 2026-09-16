@@ -1,11 +1,11 @@
 {
-  "version": "0.1.153",
-  "notes": "VCA303 rework #3 (Buyer Due List carry-over): the diagonal 'Carry Over' stamp now OVERLAYS the last rows of a continued column (absolute, pointer-events:none) instead of occupying its own rows — plus (from v0.1.152) it's a darker 45° diagonal, multi-column buyers carry a part-number badge (1/2/3) on each banner (no தொடர்ச்சி/தொடர்கிறது text), and all of one buyer's columns stay on the same page.",
+  "version": "0.1.154",
+  "notes": "VCA303 refinement: restored the 'தொடர்கிறது →' line at the bottom of a continued column; the diagonal 'Carry Over' stamp is now kept inside the card border (.blk overflow:hidden, smaller 12pt, tighter spacing) and made darker (rgba(35,96,74,.66)), overlaying the last rows just above the தொடர்கிறது line.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.153/app.asar",
-    "sha256": "5943dc82cdb4e2d7164c39d8005b1f9aec89105f4ab31a2e8d066f73f7bb35e0",
-    "bytes": 67093699
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.154/app.asar",
+    "sha256": "555ea84d4550078367db38ac5724644d40be78e4b0333d62771c040b2277f8bc",
+    "bytes": 67096279
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
