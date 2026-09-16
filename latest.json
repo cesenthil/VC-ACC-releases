@@ -1,11 +1,11 @@
 {
-  "version": "0.1.147",
-  "notes": "VCA300: Buyer Print Due List — a buyer card taller than the page no longer gets chopped. Cards are now built as per-day groups; a card that fits a column still prints whole (best-fit packing), but an oversized card splits at day boundaries and FLOWS into the next column(s) to the right, each continuation banner marked '— தொடர்ச்சி' (continued). Fixes the wide-date-range (e.g. 15-day) print overrun.",
+  "version": "0.1.148",
+  "notes": "VCA301: the Updates tile now glows GREEN (was amber) when a new version is available — a positive 'ready to install' cue, distinct from amber/red warnings. VCA300 refinements (Buyer Print Due List column-flow): a split card no longer orphans a lone 'முன்:' line in a nearly-full column (it starts in a fresh column with the opening + first days), and any chunk that continues in the next column now shows a 'தொடர்கிறது →' footer under its last total so a mid-card subtotal isn't mistaken for the final balance.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.147/app.asar",
-    "sha256": "afa67fb07eb1c1ac79c04806d62678632c6629408997257b0d17a67705d29bcd",
-    "bytes": 67084096
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.148/app.asar",
+    "sha256": "509ddaa2aaac4c1a0f16ba90da3e56ed442eeab2e53c618bbfa6efd58685216a",
+    "bytes": 67087824
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
