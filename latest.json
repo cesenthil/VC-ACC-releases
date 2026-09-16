@@ -1,11 +1,11 @@
 {
-  "version": "0.1.150",
-  "notes": "VCA303: the Buyer Print Due List (A4) now carries a faint diagonal 'CARRY OVER' watermark on each page (light green, sized to fit the sheet, readable through). The 80mm thermal buyer slip already prints as one continuous list (no change).",
+  "version": "0.1.151",
+  "notes": "VCA303 rework: dropped the page-wide 'CARRY OVER' watermark; instead each carry-over point (where a buyer's card continues to the next column) now prints a darker 'Carry Over' stamp just above the 'தொடர்கிறது →' cue — only where a continuation actually occurs. Every continued chunk now starts fresh at the top of its own column (opening rows never split into a small remainder). VCA304: the Cash Book no longer shows a false 'unsaved changes' prompt after the day is closed or when a saved grid is merely reopened for edit — the leave-prompt now fires only on real unsaved amounts and never once the day is closed; the dialog is reworded ('Unsaved amounts on this screen … only those unsaved amounts are discarded — anything you've already saved stays safe').",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.150/app.asar",
-    "sha256": "0fedf4ca30c3812ebc2d40d0d3bfe826456f0ba1ff7ba87b69d2c254facb415e",
-    "bytes": 67089679
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.151/app.asar",
+    "sha256": "ac7f19d6b4af5c8e7f2ccd94abd21ebb3e57c514ad8b59f19cfb3e88995bb14b",
+    "bytes": 67089567
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
