@@ -1,11 +1,11 @@
 {
-  "version": "0.1.159",
-  "notes": "VCA306: fix BLANK silent thermal prints. A never-shown (show:false) print window skips compositing, so webContents.print({silent:true}) captured a blank page (dad's KP307 fed empty strips while the Windows dialog printed fine). Fix: the reused print window now uses paintWhenInitiallyHidden:true + backgroundThrottling:false, and printReceipt forces two animation frames after load so the page has actually PAINTED before the silent print. Main-process change → auto-relaunch. Needs on-hardware verification.",
+  "version": "0.1.160",
+  "notes": "VCA306 (fallback): the paintWhenInitiallyHidden approach still printed blank, so the reused print window is now SHOWN OFF-SCREEN (x/y -100000, off all monitors, skipTaskbar, focusable:false, frameless) instead of show:false. A shown window is forced to composite/paint, so the silent print captures the real content instead of a blank page. Still invisible to the user. Needs on-hardware verification.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.159/app.asar",
-    "sha256": "3e7a5aec04d4d8f170864d1b08c9e3b129465729e4263edf878615c6380814be",
-    "bytes": 67102422
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.160/app.asar",
+    "sha256": "119e398705c41b56c5b8821013ad48dc8d1c411c076469217070c69d6432d99c",
+    "bytes": 67103159
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
