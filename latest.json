@@ -1,11 +1,11 @@
 {
-  "version": "0.1.160",
-  "notes": "VCA306 (fallback): the paintWhenInitiallyHidden approach still printed blank, so the reused print window is now SHOWN OFF-SCREEN (x/y -100000, off all monitors, skipTaskbar, focusable:false, frameless) instead of show:false. A shown window is forced to composite/paint, so the silent print captures the real content instead of a blank page. Still invisible to the user. Needs on-hardware verification.",
+  "version": "0.1.161",
+  "notes": "VCA306 (v3): both paint-timing fixes (paintWhenInitiallyHidden, off-screen-shown window) still printed blank on dad's GPU. Root evidence: on that hardware silent HTML print() AND capturePage come out blank, but printToPDF renders the same slip correctly (it powers the WhatsApp slip image). So printReceipt now renders the slip to a PDF and prints the PDF — Chromium's PDFium print path doesn't depend on the HTML compositor that's failing on his GPU. The PDF encodes the exact 80mm width + content height, which also fixes the short mis-cut. Direct HTML print kept as fallback. Needs on-hardware verification.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.160/app.asar",
-    "sha256": "119e398705c41b56c5b8821013ad48dc8d1c411c076469217070c69d6432d99c",
-    "bytes": 67103159
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.161/app.asar",
+    "sha256": "9cd5666297cf67197a9565435092436d562063f93ddfe677c0add5c002f0406b",
+    "bytes": 67108147
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
