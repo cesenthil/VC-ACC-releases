@@ -1,11 +1,11 @@
 {
-  "version": "0.1.158",
-  "notes": "VCA305: fix thermal printing wedging until an app restart. report:printReceipt created+destroyed a hidden BrowserWindow per job; across many prints in one session that churn wedged Chromium's print subsystem entirely (dad's KP307 stopped printing; only a restart cleared it). Now ONE hidden print window is reused (never destroyed) and jobs are serialized with a spooler-settle delay, so nothing accumulates. Main-process change → auto-relaunch on update. Needs on-hardware verification (single prints + Print All batch + a full busy session).",
+  "version": "0.1.159",
+  "notes": "VCA306: fix BLANK silent thermal prints. A never-shown (show:false) print window skips compositing, so webContents.print({silent:true}) captured a blank page (dad's KP307 fed empty strips while the Windows dialog printed fine). Fix: the reused print window now uses paintWhenInitiallyHidden:true + backgroundThrottling:false, and printReceipt forces two animation frames after load so the page has actually PAINTED before the silent print. Main-process change → auto-relaunch. Needs on-hardware verification.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.158/app.asar",
-    "sha256": "02fccd6c8cfe9741fd14c4afdcc4cd858531343feb60ce6c60a8178007226673",
-    "bytes": 67100776
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.159/app.asar",
+    "sha256": "3e7a5aec04d4d8f170864d1b08c9e3b129465729e4263edf878615c6380814be",
+    "bytes": 67102422
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
