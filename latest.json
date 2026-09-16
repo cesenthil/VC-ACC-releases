@@ -1,11 +1,11 @@
 {
-  "version": "0.1.145",
-  "notes": "Cash Book → Cash Sales drill: also removed the Betel/Kambai type word from each line for more space (the price already shows /bag, /kattu, or 'flat' for Kambai). The full type still shows in the per-bill popup.",
+  "version": "0.1.146",
+  "notes": "P&L Report (VCA297): new tile next to Cash Book — per-day income/expense statement (Month/Year), each income & expense head as a column, INCOME/EXPENS subtotals + NET P&L, frozen Date/Day columns, green income/red expenses, summary cards + trade-stats panel. Company bonus (VCA298): estimated firm contribution (payback % of bonus accrued) as an expense column, reconciled into Net Income. Header stats (VCA299): Total Qty (bags), Avg Auction/Bag, unique Sellers/Buyers — click Sellers/Buyers for a by-volume drill-down.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.145/app.asar",
-    "sha256": "b7b0c07e3762309661d298f4cc302ef35e5e10e61d86fcf057c58117f2d89c8a",
-    "bytes": 66959483
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.146/app.asar",
+    "sha256": "2724ebf91fad1af950b68230b1d587676b4e453d8a13a9c337991fa8134327c5",
+    "bytes": 67079069
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
