@@ -1,11 +1,11 @@
 {
-  "version": "0.1.148",
-  "notes": "VCA301: the Updates tile now glows GREEN (was amber) when a new version is available — a positive 'ready to install' cue, distinct from amber/red warnings. VCA300 refinements (Buyer Print Due List column-flow): a split card no longer orphans a lone 'முன்:' line in a nearly-full column (it starts in a fresh column with the opening + first days), and any chunk that continues in the next column now shows a 'தொடர்கிறது →' footer under its last total so a mid-card subtotal isn't mistaken for the final balance.",
+  "version": "0.1.149",
+  "notes": "VCA302: Cash Book can now be closed on a non-trading day. The 'enter Buyer Betel Collections before closing the tally' gate applied to EVERY day with zero collections — so a day opened only by a back-dated bonus payout (no auction, no collections) could never be closed. The gate now applies only on a real trading day (cash sales / seller invoice payments / gate-kooli-vadagai / commission / invoices present); a day whose only activity is a non-trading cash movement (bonus payout, loan repayment, manual expense) closes without it. A genuine auction day still requires collections.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.148/app.asar",
-    "sha256": "509ddaa2aaac4c1a0f16ba90da3e56ed442eeab2e53c618bbfa6efd58685216a",
-    "bytes": 67087824
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.149/app.asar",
+    "sha256": "c3af58666cfd462b4f79026e966971d97afb2b4ec50501a56328dd8778bb28ed",
+    "bytes": 67088702
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
