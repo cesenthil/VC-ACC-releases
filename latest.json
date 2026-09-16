@@ -1,11 +1,11 @@
 {
-  "version": "0.1.146",
-  "notes": "P&L Report (VCA297): new tile next to Cash Book — per-day income/expense statement (Month/Year), each income & expense head as a column, INCOME/EXPENS subtotals + NET P&L, frozen Date/Day columns, green income/red expenses, summary cards + trade-stats panel. Company bonus (VCA298): estimated firm contribution (payback % of bonus accrued) as an expense column, reconciled into Net Income. Header stats (VCA299): Total Qty (bags), Avg Auction/Bag, unique Sellers/Buyers — click Sellers/Buyers for a by-volume drill-down.",
+  "version": "0.1.147",
+  "notes": "VCA300: Buyer Print Due List — a buyer card taller than the page no longer gets chopped. Cards are now built as per-day groups; a card that fits a column still prints whole (best-fit packing), but an oversized card splits at day boundaries and FLOWS into the next column(s) to the right, each continuation banner marked '— தொடர்ச்சி' (continued). Fixes the wide-date-range (e.g. 15-day) print overrun.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.146/app.asar",
-    "sha256": "2724ebf91fad1af950b68230b1d587676b4e453d8a13a9c337991fa8134327c5",
-    "bytes": 67079069
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.147/app.asar",
+    "sha256": "afa67fb07eb1c1ac79c04806d62678632c6629408997257b0d17a67705d29bcd",
+    "bytes": 67084096
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
