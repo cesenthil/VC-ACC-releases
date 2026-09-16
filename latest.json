@@ -1,11 +1,11 @@
 {
-  "version": "0.1.149",
-  "notes": "VCA302: Cash Book can now be closed on a non-trading day. The 'enter Buyer Betel Collections before closing the tally' gate applied to EVERY day with zero collections — so a day opened only by a back-dated bonus payout (no auction, no collections) could never be closed. The gate now applies only on a real trading day (cash sales / seller invoice payments / gate-kooli-vadagai / commission / invoices present); a day whose only activity is a non-trading cash movement (bonus payout, loan repayment, manual expense) closes without it. A genuine auction day still requires collections.",
+  "version": "0.1.150",
+  "notes": "VCA303: the Buyer Print Due List (A4) now carries a faint diagonal 'CARRY OVER' watermark on each page (light green, sized to fit the sheet, readable through). The 80mm thermal buyer slip already prints as one continuous list (no change).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.149/app.asar",
-    "sha256": "c3af58666cfd462b4f79026e966971d97afb2b4ec50501a56328dd8778bb28ed",
-    "bytes": 67088702
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.150/app.asar",
+    "sha256": "0fedf4ca30c3812ebc2d40d0d3bfe826456f0ba1ff7ba87b69d2c254facb415e",
+    "bytes": 67089679
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
