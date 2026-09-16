@@ -1,11 +1,11 @@
 {
-  "version": "0.1.155",
-  "notes": "VCA303 refinements (Buyer Due List carry-over): the diagonal 'Carry Over' stamp is now 75% bigger (21pt), slanted 35° (was 45°), coloured to match the card header name (per gender/dormant), starts from the row above 'தொடர்கிறது →', and is moved right so its first letter isn't clipped. Packing: LONG buyers now print first, then smaller cards auto-fit into the leftover space (incl. a long buyer's part-full last column) so the page is better utilised.",
+  "version": "0.1.156",
+  "notes": "VCA303: the Due List part-number badge is now a navy circle with a white number, and a multi-column card's title is centred within the space excluding the badge (symmetric banner padding) so the name never overlaps the badge.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.155/app.asar",
-    "sha256": "1ccfef5ed2c9db5866f9b85a3effb11a439326a6495b8d8cf1e967e78282a98e",
-    "bytes": 67097878
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.156/app.asar",
+    "sha256": "a968ae694b5ac499289a2ee0cf1d6351b215ab7935b62bfc6380caf3862138dc",
+    "bytes": 67098856
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
