@@ -1,11 +1,11 @@
 {
-  "version": "0.1.151",
-  "notes": "VCA303 rework: dropped the page-wide 'CARRY OVER' watermark; instead each carry-over point (where a buyer's card continues to the next column) now prints a darker 'Carry Over' stamp just above the 'தொடர்கிறது →' cue — only where a continuation actually occurs. Every continued chunk now starts fresh at the top of its own column (opening rows never split into a small remainder). VCA304: the Cash Book no longer shows a false 'unsaved changes' prompt after the day is closed or when a saved grid is merely reopened for edit — the leave-prompt now fires only on real unsaved amounts and never once the day is closed; the dialog is reworded ('Unsaved amounts on this screen … only those unsaved amounts are discarded — anything you've already saved stays safe').",
+  "version": "0.1.152",
+  "notes": "VCA303 rework #2 (Buyer Due List carry-over): (1) the 'Carry Over' mark is now a darker DIAGONAL 45° stamp at each carry-over point (a non-final column's foot), matching the reference; (2) multi-column buyers get a part-number BADGE (1, 2, 3) on each column banner, replacing the '— தொடர்ச்சி'/'தொடர்கிறது' text; (3) all the columns of one buyer are kept together on the SAME page — a continued account never straddles a page break.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.151/app.asar",
-    "sha256": "ac7f19d6b4af5c8e7f2ccd94abd21ebb3e57c514ad8b59f19cfb3e88995bb14b",
-    "bytes": 67089567
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.152/app.asar",
+    "sha256": "31ed65ea7bb640589d36e52b9da1777cc66d43bb8885715d62ca691bfed78bda",
+    "bytes": 67095302
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
