@@ -1,11 +1,11 @@
 {
-  "version": "0.1.172",
-  "notes": "P&L split popup: the quantity column now shows book form (1 - 1/4 - 20) instead of raw kattu (VCA315).",
+  "version": "0.1.173",
+  "notes": "P&L split popup now shows each buyer's Auction ₹ (and unit) before the quantity; the Qty column is centered in both the invoice line-items and split popups (VCA315).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.172/app.asar",
-    "sha256": "0d29556cdee86ced6f4f92f5720142b515317a1fd71e4bd29dc33c5deebb38d9",
-    "bytes": 89951844
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.173/app.asar",
+    "sha256": "f37c6d07093f66ad73b607447bfb722c691f9cd9e41a978a23ff3338918f7dba",
+    "bytes": 89954166
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
