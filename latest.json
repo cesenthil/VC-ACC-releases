@@ -1,11 +1,11 @@
 {
-  "version": "0.1.164",
-  "notes": "P&L Report: expense figures now show in blue instead of red (VCA311).",
+  "version": "0.1.165",
+  "notes": "P&L Report: the Spread, Commission, IL Int and HL Int figures are now clickable — each opens a detail popup (per-bill spread/commission, and per-loan IL/HL interest with the book adjustment) that totals to the cell (VCA312).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.164/app.asar",
-    "sha256": "6e951d46b2195e4ee9e6819f0511c77041daef179489f605106f8208b6985ffa",
-    "bytes": 89882174
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.165/app.asar",
+    "sha256": "73038a928c337cdb4c9ee218775fdce8f961e82aeb7bed8eaf7edbbca18c3c09",
+    "bytes": 89908868
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
