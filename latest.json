@@ -1,11 +1,11 @@
 {
-  "version": "0.1.173",
-  "notes": "P&L split popup now shows each buyer's Auction ₹ (and unit) before the quantity; the Qty column is centered in both the invoice line-items and split popups (VCA315).",
+  "version": "0.1.174",
+  "notes": "Seller/Buyer Report: the transaction ledger now follows the Active/Closed/All filter — a party whose loans are all closed shows nothing under 'Active' (was still listing the closed loans' transactions) (VCA316).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.173/app.asar",
-    "sha256": "f37c6d07093f66ad73b607447bfb722c691f9cd9e41a978a23ff3338918f7dba",
-    "bytes": 89954166
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.174/app.asar",
+    "sha256": "9b9fadf19c6ec166a07fb04c57713b4713c7f15cde8e09209389266f3a64a26f",
+    "bytes": 89959326
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
