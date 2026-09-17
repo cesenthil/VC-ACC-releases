@@ -1,11 +1,11 @@
 {
-  "version": "0.1.163",
-  "notes": "P&L Report now shows dad's 2026 Jan-Aug history from his book — Spread, Commission, IL/HL interest, Cash Excess and all expense heads per day; 2026 Net P&L ties to the book (VCA310). Plus: P&L year picker gets a dropdown with an All years option (VCA307), and Loan Transactions shows the period totals in the sticky header (VCA308).",
+  "version": "0.1.164",
+  "notes": "P&L Report: expense figures now show in blue instead of red (VCA311).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.163/app.asar",
-    "sha256": "f522d6d10b0f8474427e9b792552467a19c13a858d543ee4506bc8ea1bd63bb2",
-    "bytes": 89882034
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.164/app.asar",
+    "sha256": "6e951d46b2195e4ee9e6819f0511c77041daef179489f605106f8208b6985ffa",
+    "bytes": 89882174
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
