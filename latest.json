@@ -1,11 +1,11 @@
 {
-  "version": "0.1.169",
-  "notes": "P&L Report Month view now lists only the auction weekdays — Tuesday, Thursday and Saturday (VCA313).",
+  "version": "0.1.170",
+  "notes": "P&L spread now matches the invoice to the rupee (seller value taken from the stored invoice, not recalculated) and the cell ties to its drill. P&L Month view hides empty (opened-but-unused) auction days. Spread drill shows a clickable Bill# → the invoice's line items → a clickable Split → the buyer breakdown (VCA314).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.169/app.asar",
-    "sha256": "5845724093cbdacdf1c642ccbf8609a5f4acf16223d869fc505a8370d56da4b9",
-    "bytes": 89916214
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.170/app.asar",
+    "sha256": "9cb91b8ab48a06803d1e629466cc43dc76d62a4d7a42d2e9ae9966b511eb09d0",
+    "bytes": 89948640
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
