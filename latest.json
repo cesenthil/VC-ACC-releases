@@ -1,11 +1,11 @@
 {
-  "version": "0.1.171",
-  "notes": "Paid/read-only invoices no longer flash the recovery cells (nothing to deduct there). P&L invoice line-items popup: Auction ₹ and Unit are separate aligned columns (no dancing), the split holder shows as 'Name+' with a clickable Split column → buyer breakdown, Qty shows in bags-quarter-kattu form (1 - 1/4 - 20), and a Spread line (buyers − seller) is added (VCA315).",
+  "version": "0.1.172",
+  "notes": "P&L split popup: the quantity column now shows book form (1 - 1/4 - 20) instead of raw kattu (VCA315).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.171/app.asar",
-    "sha256": "bae72f2312a6d87fbde6809a2d94eee93d93bb806c6ef30c5947a357ed48d229",
-    "bytes": 89951515
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.172/app.asar",
+    "sha256": "0d29556cdee86ced6f4f92f5720142b515317a1fd71e4bd29dc33c5deebb38d9",
+    "bytes": 89951844
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
