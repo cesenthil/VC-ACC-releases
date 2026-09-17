@@ -1,11 +1,11 @@
 {
-  "version": "0.1.166",
-  "notes": "P&L Report: the clickable Spread/Commission/IL/HL figures are no longer underlined (still open the detail popup) (VCA312).",
+  "version": "0.1.167",
+  "notes": "P&L drill popups now use aligned columns: Spread shows Buyers & Seller, Commission shows Bill#, and IL/HL Interest show Loan# and Bill# (the IL 10% advance interest shows Bill# = ADV INT). Values are in a consistent muted font so they line up (VCA312).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.166/app.asar",
-    "sha256": "8625c1516fe03672c36133840973cdd0d4189b55adecb1dfa8f3d56530b1bbe7",
-    "bytes": 89909036
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.167/app.asar",
+    "sha256": "1c29ee038fdc6e4808972c1a954e663ed8e8bdd79d656b7dab86e8f6b8e2e9a6",
+    "bytes": 89914169
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
