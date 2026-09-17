@@ -1,11 +1,11 @@
 {
-  "version": "0.1.170",
-  "notes": "P&L spread now matches the invoice to the rupee (seller value taken from the stored invoice, not recalculated) and the cell ties to its drill. P&L Month view hides empty (opened-but-unused) auction days. Spread drill shows a clickable Bill# → the invoice's line items → a clickable Split → the buyer breakdown (VCA314).",
+  "version": "0.1.171",
+  "notes": "Paid/read-only invoices no longer flash the recovery cells (nothing to deduct there). P&L invoice line-items popup: Auction ₹ and Unit are separate aligned columns (no dancing), the split holder shows as 'Name+' with a clickable Split column → buyer breakdown, Qty shows in bags-quarter-kattu form (1 - 1/4 - 20), and a Spread line (buyers − seller) is added (VCA315).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.170/app.asar",
-    "sha256": "9cb91b8ab48a06803d1e629466cc43dc76d62a4d7a42d2e9ae9966b511eb09d0",
-    "bytes": 89948640
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.171/app.asar",
+    "sha256": "bae72f2312a6d87fbde6809a2d94eee93d93bb806c6ef30c5947a357ed48d229",
+    "bytes": 89951515
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
