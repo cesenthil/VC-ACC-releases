@@ -1,11 +1,11 @@
 {
-  "version": "0.1.177",
-  "notes": "Per-loan interest fix (VCA317): each loan's interest outstanding now reconciles to the party HL/IL total even when interest was overpaid or paid on now-voided legacy loans (before, the attribution capped at each loan's accrued and dropped the rest, so the cards could show nothing). Loans that still carry interest outstanding now sort to the top of the list so they're easy to find.",
+  "version": "0.1.178",
+  "notes": "Interest-paid is now attributed newest-loan-first (LIFO), so interest collected settles the current loan and old loans' unpaid interest stays visible. Fix: a seller/buyer with a live loan whose history includes voided legacy loans no longer shows 'no active loans' — the loan ledger now reads a loan's closed/void status from its own advance and computes balances from live rows only (e.g. Chinnasamy.P.S's HL1976 ₹7,000 now shows as active) (VCA317).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.177/app.asar",
-    "sha256": "8d2d85261131acfa3bcb5f7963d983170f9dd01429f05d1e82b45affa8e9ba20",
-    "bytes": 90022961
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.178/app.asar",
+    "sha256": "9dbc747b433db23629dddf052d51df5782a4bda148dae17f13d5f6c7f47742ef",
+    "bytes": 90025263
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
