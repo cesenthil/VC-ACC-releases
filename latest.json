@@ -1,11 +1,11 @@
 {
-  "version": "0.1.168",
-  "notes": "P&L IL/HL Interest drill: Loan# now shows for interest recoveries too (attributed to the seller's open loan), alongside Bill# (VCA312).",
+  "version": "0.1.169",
+  "notes": "P&L Report Month view now lists only the auction weekdays — Tuesday, Thursday and Saturday (VCA313).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.168/app.asar",
-    "sha256": "29ef2ea9ada9fdccac221f8502454b8d8bd403f277785f087aa132151f8e1f17",
-    "bytes": 89915469
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.169/app.asar",
+    "sha256": "5845724093cbdacdf1c642ccbf8609a5f4acf16223d869fc505a8370d56da4b9",
+    "bytes": 89916214
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
