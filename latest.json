@@ -1,11 +1,11 @@
 {
-  "version": "0.1.167",
-  "notes": "P&L drill popups now use aligned columns: Spread shows Buyers & Seller, Commission shows Bill#, and IL/HL Interest show Loan# and Bill# (the IL 10% advance interest shows Bill# = ADV INT). Values are in a consistent muted font so they line up (VCA312).",
+  "version": "0.1.168",
+  "notes": "P&L IL/HL Interest drill: Loan# now shows for interest recoveries too (attributed to the seller's open loan), alongside Bill# (VCA312).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.167/app.asar",
-    "sha256": "1c29ee038fdc6e4808972c1a954e663ed8e8bdd79d656b7dab86e8f6b8e2e9a6",
-    "bytes": 89914169
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.168/app.asar",
+    "sha256": "29ef2ea9ada9fdccac221f8502454b8d8bd403f277785f087aa132151f8e1f17",
+    "bytes": 89915469
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
