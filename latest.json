@@ -1,11 +1,11 @@
 {
-  "version": "0.1.176",
-  "notes": "Per-loan interest (VCA317 Part 2a): the Seller/Buyer loan ledger now shows each loan's own interest outstanding (not just the party total), and when a loan closes on the Loan Repayment screen you're prompted to recover its interest (full/part/nothing — the remainder is written off).",
+  "version": "0.1.177",
+  "notes": "Per-loan interest fix (VCA317): each loan's interest outstanding now reconciles to the party HL/IL total even when interest was overpaid or paid on now-voided legacy loans (before, the attribution capped at each loan's accrued and dropped the rest, so the cards could show nothing). Loans that still carry interest outstanding now sort to the top of the list so they're easy to find.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.176/app.asar",
-    "sha256": "621d98b44e425936c124d0a3bfa28e75523af11c670f54d187ecf41c3e3603d9",
-    "bytes": 90020692
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.177/app.asar",
+    "sha256": "8d2d85261131acfa3bcb5f7963d983170f9dd01429f05d1e82b45affa8e9ba20",
+    "bytes": 90022961
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
