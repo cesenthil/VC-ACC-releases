@@ -1,11 +1,11 @@
 {
-  "version": "0.1.175",
-  "notes": "Loan recovery guards (invoice + Loan Repayment): a recovery box is disabled (NIL) when that head has no balance; entering a PRINCIPAL recovery above the balance pops a modal and is blocked (interest over-recovery stays allowed). Voiding a loan row from the invoice's Ledger panel now refreshes the panel + recovery outstanding. On Loan Repayment, picking a name jumps the cursor to the first available receipt cell (VCA317).",
+  "version": "0.1.176",
+  "notes": "Per-loan interest (VCA317 Part 2a): the Seller/Buyer loan ledger now shows each loan's own interest outstanding (not just the party total), and when a loan closes on the Loan Repayment screen you're prompted to recover its interest (full/part/nothing — the remainder is written off).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.175/app.asar",
-    "sha256": "dd75ddfa55a1059a64db7ba4ea1232672f6ff48360519f54ebacfd10420a1f06",
-    "bytes": 89979492
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.176/app.asar",
+    "sha256": "621d98b44e425936c124d0a3bfa28e75523af11c670f54d187ecf41c3e3603d9",
+    "bytes": 90020692
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
