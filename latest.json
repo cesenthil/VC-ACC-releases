@@ -1,11 +1,11 @@
 {
-  "version": "0.1.162",
-  "notes": "VCA306 (v4 - real silent print): Chromium's silent print pipeline is broken on dad's KP307 driver - every variant (HTML, off-screen window, pre-rendered PDF) printed BLANK, while the Ask-each-time dialog always worked. Fix: bundle SumatraPDF (official signed 3.6.1, inside app.asar so it rides the normal update). For a silent job the app renders the slip to a PDF (proven correct on his machine) and SumatraPDF prints it straight to the chosen printer via Windows' own print engine - no dialog, real content, correct cut length. Ask-each-time still uses the working dialog. Note: this update is ~20MB larger. Needs on-hardware verification.",
+  "version": "0.1.163",
+  "notes": "P&L Report now shows dad's 2026 Jan-Aug history from his book — Spread, Commission, IL/HL interest, Cash Excess and all expense heads per day; 2026 Net P&L ties to the book (VCA310). Plus: P&L year picker gets a dropdown with an All years option (VCA307), and Loan Transactions shows the period totals in the sticky header (VCA308).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.162/app.asar",
-    "sha256": "802422c5e90db6b6027a13538540f1e343bfd68a7814744d593f63bcda2ff7e6",
-    "bytes": 87411226
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.163/app.asar",
+    "sha256": "f522d6d10b0f8474427e9b792552467a19c13a858d543ee4506bc8ea1bd63bb2",
+    "bytes": 89882034
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
