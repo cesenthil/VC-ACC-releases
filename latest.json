@@ -1,11 +1,11 @@
 {
-  "version": "0.1.185",
-  "notes": "List-view alignment (VCA321): Sellers & Buyers lists — Phone, Gender, Status, Print Slip and Actions columns are centred. Locations list — 'Used by' renamed to 'Count', the edit/delete column gets an 'Action' header, and both Count and Action are centred. P&L Report — the pinned ₹ is nudged slightly off the column separator line.",
+  "version": "0.1.186",
+  "notes": "More alignment polish (VCA321): Bonus Payment table — dotted column separators, centred Year/Pay/Paid-Date, pinned ₹ (no dance). Loan Transactions (View/Update) — centred Date/Party/Loan#/Src/Action columns with a new 'Action' header, and the ₹ is pinned close to the value (no dance). Seller/Buyer Report right-side detail tables (IL/HL/Suspense/Bonus) now show the dotted column separators on every column.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.185/app.asar",
-    "sha256": "377011026c7f2af298488f07bce624a5b4a79b8fd6e86edfefaab9f9ed2477b8",
-    "bytes": 90096549
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.186/app.asar",
+    "sha256": "e2f5abf57e3c28b4b24788a3d830bd991c3fe39e3d1a6aa22322359103fe0732",
+    "bytes": 90100633
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
