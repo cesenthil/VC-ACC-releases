@@ -1,11 +1,11 @@
 {
-  "version": "0.1.186",
-  "notes": "More alignment polish (VCA321): Bonus Payment table — dotted column separators, centred Year/Pay/Paid-Date, pinned ₹ (no dance). Loan Transactions (View/Update) — centred Date/Party/Loan#/Src/Action columns with a new 'Action' header, and the ₹ is pinned close to the value (no dance). Seller/Buyer Report right-side detail tables (IL/HL/Suspense/Bonus) now show the dotted column separators on every column.",
+  "version": "0.1.187",
+  "notes": "Loan Transactions: the IL upfront '*' marker no longer folds to a second line (it sits as a small corner superscript, keeping the ₹ pinned to the value). Seller/Buyer Report detail tables (IL/HL/Suspense/Bonus) — Date, Bill# and Loan#/Bonus# columns are centred, and every column shows the dotted separator.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.186/app.asar",
-    "sha256": "e2f5abf57e3c28b4b24788a3d830bd991c3fe39e3d1a6aa22322359103fe0732",
-    "bytes": 90100633
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.187/app.asar",
+    "sha256": "96fbe34054b0424ec8aab41ed724d43d2b0473299ea195bac7f348751a23a886",
+    "bytes": 90102875
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
