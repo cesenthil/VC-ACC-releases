@@ -1,11 +1,11 @@
 {
-  "version": "0.1.187",
-  "notes": "Loan Transactions: the IL upfront '*' marker no longer folds to a second line (it sits as a small corner superscript, keeping the ₹ pinned to the value). Seller/Buyer Report detail tables (IL/HL/Suspense/Bonus) — Date, Bill# and Loan#/Bonus# columns are centred, and every column shows the dotted separator.",
+  "version": "0.1.188",
+  "notes": "Seller/Buyer Report ledger header: the key balances — IL/HL Principal, Suspense (and the buyer's Betel) — are now shown as boxed chips so the 'top balance' figures stand out, while the interest figures are shown lighter as secondary.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.187/app.asar",
-    "sha256": "96fbe34054b0424ec8aab41ed724d43d2b0473299ea195bac7f348751a23a886",
-    "bytes": 90102875
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.188/app.asar",
+    "sha256": "ddb7e51035ce4c0a0a2bde66bcd0312ab880be56edf05cd7f3aeecb4109086e0",
+    "bytes": 90104788
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
