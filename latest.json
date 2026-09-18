@@ -1,11 +1,11 @@
 {
-  "version": "0.1.183",
-  "notes": "UI polish (VCA319/321): View/Edit Splits — the Invoice # column is centred and a split with a Sus.A/c adjustment shows its invoice # as a small golden badge (rounded-rectangle). Invoice Register — Date, Invoice # and Status columns are centred. The rupee symbol no longer 'dances' down a column: it's pinned to the cell's left edge with the number on the right, on the P&L Report and the Seller/Buyer Reports. P&L data rows are slightly taller and vertically centred.",
+  "version": "0.1.184",
+  "notes": "Seller/Buyer Report: apply the dashed column separators consistently across every column (the report rows table now uses the same sep-cols grid as the other list screens).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.183/app.asar",
-    "sha256": "7130d44b19e12f7c12cfdcac81a3a5e5d5a235e25558bf7e3485d9e8ddf09762",
-    "bytes": 90093359
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.184/app.asar",
+    "sha256": "5b74a0dc4a2b1681ccff27ff50e5f407b60707e5e05d8fec21b448c4c183e809",
+    "bytes": 90093467
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
