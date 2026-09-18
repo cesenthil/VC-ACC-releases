@@ -1,11 +1,11 @@
 {
-  "version": "0.1.182",
-  "notes": "Split View/Edit polish + P&L rows (VCA319/321): the Suspense filter is now an 'All / Sus.A/c Splits' toggle; a split that carries a Sus.A/c adjustment now shows its invoice number itself as a golden badge (clear, and no more wrapping to a 2nd line). Dotted column separators added to the Invoice Register (Invoice - View/Update). P&L Report data rows are slightly taller and vertically centred.",
+  "version": "0.1.183",
+  "notes": "UI polish (VCA319/321): View/Edit Splits — the Invoice # column is centred and a split with a Sus.A/c adjustment shows its invoice # as a small golden badge (rounded-rectangle). Invoice Register — Date, Invoice # and Status columns are centred. The rupee symbol no longer 'dances' down a column: it's pinned to the cell's left edge with the number on the right, on the P&L Report and the Seller/Buyer Reports. P&L data rows are slightly taller and vertically centred.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.182/app.asar",
-    "sha256": "a67038d6ae90e45329b27d9c0c17840e5682cbacc04c055e70fb6da27c40fc2e",
-    "bytes": 90090342
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.183/app.asar",
+    "sha256": "7130d44b19e12f7c12cfdcac81a3a5e5d5a235e25558bf7e3485d9e8ddf09762",
+    "bytes": 90093359
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
