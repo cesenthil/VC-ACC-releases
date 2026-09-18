@@ -1,11 +1,11 @@
 {
-  "version": "0.1.188",
-  "notes": "Seller/Buyer Report ledger header: the key balances — IL/HL Principal, Suspense (and the buyer's Betel) — are now shown as boxed chips so the 'top balance' figures stand out, while the interest figures are shown lighter as secondary.",
+  "version": "0.1.189",
+  "notes": "URGENT fix: date pickers were capping at yesterday for users ahead of UTC (e.g. India, IST = UTC+5:30) — 'today' was computed from UTC (toISOString) instead of the machine's local date, so before ~5:30am IST the max selectable date was still the previous day. Now uses the system's local date everywhere, so 19th (and any current local day) can be keyed in. No EST/hardcoded timezone.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.188/app.asar",
-    "sha256": "ddb7e51035ce4c0a0a2bde66bcd0312ab880be56edf05cd7f3aeecb4109086e0",
-    "bytes": 90104788
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.189/app.asar",
+    "sha256": "13e34ef9ec3ed9ee1706fcde4b375b3f443da147202cfc64827e556ae85f7195",
+    "bytes": 90105651
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
