@@ -1,11 +1,11 @@
 {
-  "version": "0.1.180",
-  "notes": "Write-off accounting fix (VCA318). A write-off never involves cash, so: (1) an INTEREST write-off is no longer counted as interest received — it drops out of income AND out of 'interest paid', and only brings that loan's interest outstanding down (a new 'Interest written off' line shows it on the Loan Repayment screen). The Seller Report header 'HL/IL INT' and grand total now show interest NET of what's been paid or written off. (2) a PRINCIPAL write-off now shows as a 'Write Off' expense in the P&L and reduces Net P&L. No data change — existing write-offs correct themselves.",
+  "version": "0.1.181",
+  "notes": "Split suspense now flows into the P&L (VCA319): when a split corrects a mis-entered auction price or quantity, that suspense (Dr raises, Cr lowers) is folded into the day's spread so the margin is right; the Spread drill shows the adjustment. View/Edit Splits gains a 'with adjustment only' filter and a 'Sus' badge next to invoices that carry a split suspense. Dotted column separators added to the Splits, Loan Transactions, Sellers, Buyers, Locations and Buyer-Betel tables (VCA320).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.180/app.asar",
-    "sha256": "62d978c01d9402fd961f026c818163f6d7de25690e7133231333ca322ba287b8",
-    "bytes": 90051338
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.181/app.asar",
+    "sha256": "06b5a6cdff82ee724c3e508902bb721221ae678592d62a24a81f412aba7e862d",
+    "bytes": 90089948
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
