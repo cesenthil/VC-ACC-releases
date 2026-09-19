@@ -1,11 +1,11 @@
 {
-  "version": "0.1.189",
-  "notes": "URGENT fix: date pickers were capping at yesterday for users ahead of UTC (e.g. India, IST = UTC+5:30) — 'today' was computed from UTC (toISOString) instead of the machine's local date, so before ~5:30am IST the max selectable date was still the previous day. Now uses the system's local date everywhere, so 19th (and any current local day) can be keyed in. No EST/hardcoded timezone.",
+  "version": "0.1.190",
+  "notes": "Cash Book: slightly narrowed the Cr & Dr columns (with a tighter rupee gap) so the longer Group labels — Buyer Betel Collections, Seller Invoice Payments, Cash Sales — fit on one line. Amounts up to lakhs still display fully.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.189/app.asar",
-    "sha256": "13e34ef9ec3ed9ee1706fcde4b375b3f443da147202cfc64827e556ae85f7195",
-    "bytes": 90105651
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.190/app.asar",
+    "sha256": "b88ff55f7013455d0664de223ac59ff4f05ccb763dbd9c168b66ca3e316992c1",
+    "bytes": 90106841
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
