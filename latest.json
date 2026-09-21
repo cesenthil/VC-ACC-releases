@@ -1,11 +1,11 @@
 {
-  "version": "0.1.192",
-  "notes": "VCA325: Home — 'Loan Transactions' card renamed 'Loan & Suspense Transactions'; New Loan + Repayment merged into one 'Loan/Repay Entry' tile (mode toggle inside), Suspense renamed 'Suspense Entry', tiles re-laid (Loan/Repay Entry · Suspense Entry / View-Update). New Loan screen no longer shows the Suspense A/c cards. Direct card renamed 'Cash Book & Bonus' with P&L Report and Bonus Payment swapped. Seller & Buyer Report: Suspense column moved next to HL Principal, and all column headers centred.",
+  "version": "0.1.193",
+  "notes": "Loan/Repay Entry screen: removed the Suspense A/c knock-off card (in both New Loan and Repayment modes); the screen now shows just the IL and HL loan legs. Suspense is entered/settled from the Suspense Entry screen.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.192/app.asar",
-    "sha256": "36e495d150c309af122ef1d15a843885d547fe7675ba87c171431dcf2549e6c8",
-    "bytes": 90119680
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.193/app.asar",
+    "sha256": "3588382794caae073387730dc6116d74e369c93cec823c66af5b6268da21550c",
+    "bytes": 90106828
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
