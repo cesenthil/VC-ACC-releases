@@ -1,11 +1,11 @@
 {
-  "version": "0.1.190",
-  "notes": "Cash Book: slightly narrowed the Cr & Dr columns (with a tighter rupee gap) so the longer Group labels — Buyer Betel Collections, Seller Invoice Payments, Cash Sales — fit on one line. Amounts up to lakhs still display fully.",
+  "version": "0.1.191",
+  "notes": "VCA324: (1) Suspense moved from the Direct card to the Loan Transactions card. (2) Loan Transactions View/Update now shows a Suspense A/c column (seller suspense folded in), all column headers are centred, the Loan filter has a 'Sus A/c' option, and the edit button no longer shifts on rows without a delete. (3) Seller/Buyer Report header: IL/HL Principal + Suspense are equal-sized boxes, a head with an outstanding balance is highlighted, and Suspense now sits right after HL Principal.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.190/app.asar",
-    "sha256": "b88ff55f7013455d0664de223ac59ff4f05ccb763dbd9c168b66ca3e316992c1",
-    "bytes": 90106841
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.191/app.asar",
+    "sha256": "a06e2035cbb0bba1ecf22b659249c6971590cdc128449d34972ec8e3e51441c1",
+    "bytes": 90116923
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
