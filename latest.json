@@ -1,11 +1,11 @@
 {
-  "version": "0.1.193",
-  "notes": "Loan/Repay Entry screen: removed the Suspense A/c knock-off card (in both New Loan and Repayment modes); the screen now shows just the IL and HL loan legs. Suspense is entered/settled from the Suspense Entry screen.",
+  "version": "0.1.194",
+  "notes": "Invoice: cash sales lines can now be split too — removed the constraint that forced a Cash Sales lot to a single buyer. The split (👤/👥) toggle now works on a cash line, so a cash-held lot can be shared and allocated in Buyer Splits like any other buyer.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.193/app.asar",
-    "sha256": "3588382794caae073387730dc6116d74e369c93cec823c66af5b6268da21550c",
-    "bytes": 90106828
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.194/app.asar",
+    "sha256": "521500ff2572171ae7e38b1b79877b7505be9b604fca5d8c6996af46304f86c7",
+    "bytes": 90105269
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
