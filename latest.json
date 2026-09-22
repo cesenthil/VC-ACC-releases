@@ -1,11 +1,11 @@
 {
-  "version": "0.1.194",
-  "notes": "Invoice: cash sales lines can now be split too — removed the constraint that forced a Cash Sales lot to a single buyer. The split (👤/👥) toggle now works on a cash line, so a cash-held lot can be shared and allocated in Buyer Splits like any other buyer.",
+  "version": "0.1.195",
+  "notes": "Add Seller / Add Buyer dialog: widened the 'Already exists?' list (280px -> 360px) and the dialog (880 -> 940) so a full name + location shows without truncation; the entry form is a touch narrower. Applies to both the New Seller and New Buyer dialogs.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.194/app.asar",
-    "sha256": "521500ff2572171ae7e38b1b79877b7505be9b604fca5d8c6996af46304f86c7",
-    "bytes": 90105269
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.195/app.asar",
+    "sha256": "f5f388530abf37932704918bb3cd9edec0b8c3f3eda13b0a7057d0d5095b709e",
+    "bytes": 90096659
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
