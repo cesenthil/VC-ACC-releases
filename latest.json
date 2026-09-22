@@ -1,11 +1,11 @@
 {
-  "version": "0.1.195",
-  "notes": "Add Seller / Add Buyer dialog: widened the 'Already exists?' list (280px -> 360px) and the dialog (880 -> 940) so a full name + location shows without truncation; the entry form is a touch narrower. Applies to both the New Seller and New Buyer dialogs.",
+  "version": "0.1.196",
+  "notes": "80mm seller-patti print: the right edge was being clipped (amounts lost their last digit, the bill# was cut) because the content ran past an 80mm printer's ~72mm printable width. Pulled the right-aligned content inward (right padding 6mm -> 9mm; left unchanged) so the full amounts and bill# print. Dad: please print one patti and confirm nothing is cut on the right — if a sliver still clips, tell me and I'll nudge it a bit more.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.195/app.asar",
-    "sha256": "f5f388530abf37932704918bb3cd9edec0b8c3f3eda13b0a7057d0d5095b709e",
-    "bytes": 90096659
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.196/app.asar",
+    "sha256": "2a88bf984e55d211bf1b9f8d047b35c242bd72844e9c489a75fd75750dc1c55b",
+    "bytes": 90097546
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
