@@ -1,11 +1,11 @@
 {
-  "version": "0.1.196",
-  "notes": "80mm seller-patti print: the right edge was being clipped (amounts lost their last digit, the bill# was cut) because the content ran past an 80mm printer's ~72mm printable width. Pulled the right-aligned content inward (right padding 6mm -> 9mm; left unchanged) so the full amounts and bill# print. Dad: please print one patti and confirm nothing is cut on the right — if a sliver still clips, tell me and I'll nudge it a bit more.",
+  "version": "0.1.197",
+  "notes": "VCA329: Invoice issued modal now has a Pay Invoice button — mark the just-created bill Paid (cash/UPI/suspense tally), auto-print the 80mm patti, then drop back into a fresh New Invoice.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.196/app.asar",
-    "sha256": "2a88bf984e55d211bf1b9f8d047b35c242bd72844e9c489a75fd75750dc1c55b",
-    "bytes": 90097546
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.197/app.asar",
+    "sha256": "330c38f97a475d2d51b2dc5f7bbb522b32a86b30498def89d28ab3c263760643",
+    "bytes": 90103274
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
