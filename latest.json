@@ -1,11 +1,11 @@
 {
-  "version": "0.1.197",
-  "notes": "VCA329: Invoice issued modal now has a Pay Invoice button — mark the just-created bill Paid (cash/UPI/suspense tally), auto-print the 80mm patti, then drop back into a fresh New Invoice.",
+  "version": "0.1.198",
+  "notes": "VCA329 follow-up: after Pay Invoice returns to the New Invoice screen, the cursor now lands on the seller/name selector automatically (reset deferred to after the marked-Paid popup is dismissed).",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.197/app.asar",
-    "sha256": "330c38f97a475d2d51b2dc5f7bbb522b32a86b30498def89d28ab3c263760643",
-    "bytes": 90103274
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.198/app.asar",
+    "sha256": "02c3a4eceaa1a51f0da84acd11ab58f69e712ce552544c21fece4d8fd9d330e9",
+    "bytes": 90103835
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
