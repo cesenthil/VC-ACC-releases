@@ -1,11 +1,11 @@
 {
-  "version": "0.1.198",
-  "notes": "VCA329 follow-up: after Pay Invoice returns to the New Invoice screen, the cursor now lands on the seller/name selector automatically (reset deferred to after the marked-Paid popup is dismissed).",
+  "version": "0.1.199",
+  "notes": "VCA330: fix invoice fields unfocusable after Mark Unpaid -> Edit. The read-only InvoiceScreen was reused when toggling to editable, hitting Chromium's disabled->enabled <fieldset> focus quirk (fields looked enabled but couldn't be clicked into). Now remounts fresh on edit.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.198/app.asar",
-    "sha256": "02c3a4eceaa1a51f0da84acd11ab58f69e712ce552544c21fece4d8fd9d330e9",
-    "bytes": 90103835
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.199/app.asar",
+    "sha256": "ef20b9b84960540e4d77dbb867c85866eb3293e6bff96dab1b8986899b98c01f",
+    "bytes": 90105099
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
