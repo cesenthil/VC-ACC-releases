@@ -1,11 +1,11 @@
 {
-  "version": "0.1.201",
-  "notes": "VCA331: fix screen freezing (fields unresponsive until Ctrl+Shift+I) after modal/save popups. Removed backdrop-filter blur from the shared modal .overlay (a blurred full-screen layer could leave a stale compositor hit-test region swallowing all clicks until a compositor reset/DevTools cleared it) and set backgroundThrottling:false on the main window. Follows the VCA330 render-loop fix.",
+  "version": "0.1.202",
+  "notes": "VCA331 REAL fix: form fields became uneditable (no keyboard caret) until the window was re-focused (open/close DevTools), after actions like Mark Unpaid. Root cause: native window.confirm() leaves the Electron renderer without keyboard focus on close (DevTools snippet showed document.hasFocus()=false, field enabled+on-top). Replaced ALL 6 native confirm() dialogs (Mark Unpaid, Discard draft, Delete location/seller/buyer, Knock-off suspense) with an in-app ConfirmModal (requestConfirm) — no native dialog, no focus loss. Explains the 'random freeze on different screens'. Supersedes the v0.1.201 blur-overlay attempt.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.201/app.asar",
-    "sha256": "1e706f56364eecadd1c26e2b5de188ac9ca0bfdf9db34e93fe31f4e0d9248eca",
-    "bytes": 90108643
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.202/app.asar",
+    "sha256": "94c6ac7a22e8a0694e332f4782ec7d6b298510eee08657cc3fefb17bceaf06b9",
+    "bytes": 90115155
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
