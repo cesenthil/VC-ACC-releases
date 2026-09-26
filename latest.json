@@ -1,11 +1,11 @@
 {
-  "version": "0.1.199",
-  "notes": "VCA330: fix invoice fields unfocusable after Mark Unpaid -> Edit. The read-only InvoiceScreen was reused when toggling to editable, hitting Chromium's disabled->enabled <fieldset> focus quirk (fields looked enabled but couldn't be clicked into). Now remounts fresh on edit.",
+  "version": "0.1.200",
+  "notes": "VCA330 (real fix): stop the infinite render loop that froze the invoice View/Update screen (fields unfocusable; 'Maximum update depth exceeded'). InvoiceScreen's print-ready effect depended on an onPrintReady prop passed inline (new fn each render) and called it to setState the parent -> endless re-render whenever a printable invoice was open. Now the callback is read via a ref (effect deps: [canPrintReceipt] only) and the caller memoizes it with useCallback. Supersedes v0.1.197-199 for this bug.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.199/app.asar",
-    "sha256": "ef20b9b84960540e4d77dbb867c85866eb3293e6bff96dab1b8986899b98c01f",
-    "bytes": 90105099
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.200/app.asar",
+    "sha256": "7601fcfc1ca08fcf1dce6c20da59e510f2052c851d18590177127c58f1b58014",
+    "bytes": 90107271
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
