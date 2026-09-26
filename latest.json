@@ -1,11 +1,11 @@
 {
-  "version": "0.1.200",
-  "notes": "VCA330 (real fix): stop the infinite render loop that froze the invoice View/Update screen (fields unfocusable; 'Maximum update depth exceeded'). InvoiceScreen's print-ready effect depended on an onPrintReady prop passed inline (new fn each render) and called it to setState the parent -> endless re-render whenever a printable invoice was open. Now the callback is read via a ref (effect deps: [canPrintReceipt] only) and the caller memoizes it with useCallback. Supersedes v0.1.197-199 for this bug.",
+  "version": "0.1.201",
+  "notes": "VCA331: fix screen freezing (fields unresponsive until Ctrl+Shift+I) after modal/save popups. Removed backdrop-filter blur from the shared modal .overlay (a blurred full-screen layer could leave a stale compositor hit-test region swallowing all clicks until a compositor reset/DevTools cleared it) and set backgroundThrottling:false on the main window. Follows the VCA330 render-loop fix.",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.200/app.asar",
-    "sha256": "7601fcfc1ca08fcf1dce6c20da59e510f2052c851d18590177127c58f1b58014",
-    "bytes": 90107271
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.201/app.asar",
+    "sha256": "1e706f56364eecadd1c26e2b5de188ac9ca0bfdf9db34e93fe31f4e0d9248eca",
+    "bytes": 90108643
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
