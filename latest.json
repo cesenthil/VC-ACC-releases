@@ -1,11 +1,11 @@
 {
-  "version": "0.1.205",
-  "notes": "Ask before printing a paid patti (VCA336); detect and report failed thermal prints instead of spooling silently (VCA337)",
+  "version": "0.1.206",
+  "notes": "Payment: one Payment Done preview with Print/Close, printer checked up front (VCA338); fix duplicated failure message",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.205/app.asar",
-    "sha256": "9f040b80206965d9297fd7847676e0f0c59fb36e49a52e6beb09d2b9ef68d1e8",
-    "bytes": 84040224
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.206/app.asar",
+    "sha256": "537b7d2812a3e6447abe0e6d2311a5c7c1c96e605ae7a69912c907b91fdb1a9c",
+    "bytes": 84048323
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
