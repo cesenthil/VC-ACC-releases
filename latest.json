@@ -1,11 +1,11 @@
 {
-  "version": "0.1.204",
-  "notes": "Loan Transactions: Suspense A/c before IL Interest; wider bill popup (VCA334)",
+  "version": "0.1.205",
+  "notes": "Ask before printing a paid patti (VCA336); detect and report failed thermal prints instead of spooling silently (VCA337)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.204/app.asar",
-    "sha256": "29a07813a4408ac70518b57f8355097173d20eb9bea21c49993f5e9350c8f304",
-    "bytes": 83981822
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.205/app.asar",
+    "sha256": "9f040b80206965d9297fd7847676e0f0c59fb36e49a52e6beb09d2b9ef68d1e8",
+    "bytes": 84040224
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
