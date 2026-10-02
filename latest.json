@@ -1,11 +1,11 @@
 {
-  "version": "0.1.206",
-  "notes": "Payment: one Payment Done preview with Print/Close, printer checked up front (VCA338); fix duplicated failure message",
+  "version": "0.1.207",
+  "notes": "Every print route checks the printer; single Print button in the preview footer (VCA340)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.206/app.asar",
-    "sha256": "537b7d2812a3e6447abe0e6d2311a5c7c1c96e605ae7a69912c907b91fdb1a9c",
-    "bytes": 84048323
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.207/app.asar",
+    "sha256": "1d203892250f806d6feae6bef572e283fbcf63904086cc75ebbab7c652c76f82",
+    "bytes": 84057552
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
