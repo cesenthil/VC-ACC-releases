@@ -1,11 +1,11 @@
 {
-  "version": "0.1.203",
-  "notes": "Suspense Void (VCA333) + clickable Bill # column replacing SRC (VCA334)",
+  "version": "0.1.204",
+  "notes": "Loan Transactions: Suspense A/c before IL Interest; wider bill popup (VCA334)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.203/app.asar",
-    "sha256": "d5e1e420acf125ce591a31dd1132580a723a98ceb1e0f48fe8fe82b01539bb8f",
-    "bytes": 83980328
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.204/app.asar",
+    "sha256": "29a07813a4408ac70518b57f8355097173d20eb9bea21c49993f5e9350c8f304",
+    "bytes": 83981822
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
