@@ -1,11 +1,11 @@
 {
-  "version": "0.1.207",
-  "notes": "Every print route checks the printer; single Print button in the preview footer (VCA340)",
+  "version": "0.1.208",
+  "notes": "Invoice entry: lines locked until a seller is picked, Gate/Kooli asked at seller-pick (VCA341); one screen to cancel or destroy a bill number (VCA342)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.207/app.asar",
-    "sha256": "1d203892250f806d6feae6bef572e283fbcf63904086cc75ebbab7c652c76f82",
-    "bytes": 84057552
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.208/app.asar",
+    "sha256": "a66cfe6d8ee9edabce9fb5ca34ccb681820b04ea5b2bb37dc7274e6a1e411751",
+    "bytes": 84083499
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
