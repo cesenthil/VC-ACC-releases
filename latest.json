@@ -1,11 +1,11 @@
 {
-  "version": "0.1.211",
-  "notes": "Due-list qty no longer wraps (¼ ½ ¾, VCA346); Cash Sales badge shows pending splits and keeps the row aligned (VCA347)",
+  "version": "0.1.212",
+  "notes": "Due-list qty: the kattu always reads smaller than the bag (VCA346 follow-up)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.211/app.asar",
-    "sha256": "73d59a2ed5a7e9c0766a16cccbc73650507c273699352ed26279faefee5415a1",
-    "bytes": 84112608
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.212/app.asar",
+    "sha256": "7f93a49c1c5faa1eadaeaa8a576c11f586b1d09731e8d02bbf1a70451eb0812c",
+    "bytes": 84113425
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
