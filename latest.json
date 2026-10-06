@@ -1,11 +1,11 @@
 {
-  "version": "0.1.213",
-  "notes": "Print Due List: nothing packs under a Carry Over stamp (VCA348)",
+  "version": "0.1.214",
+  "notes": "P&L Year view runs the Indian financial year, April to March (VCA349)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.213/app.asar",
-    "sha256": "80836309b9a534f6f79ac2c3084997cd9ab03bbd19aea3f0442300d248973b3f",
-    "bytes": 84116052
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.214/app.asar",
+    "sha256": "6e9aa1f39e083e1a568e0bef4a0cebaf874446f4dbf965d00b5ce38a905066ac",
+    "bytes": 84119516
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
