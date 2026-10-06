@@ -1,11 +1,11 @@
 {
-  "version": "0.1.210",
-  "notes": "Duplicate invoice asks in a modal at seller-pick (VCA344); Cash Sales Diff flags unposted splits (VCA345)",
+  "version": "0.1.211",
+  "notes": "Due-list qty no longer wraps (¼ ½ ¾, VCA346); Cash Sales badge shows pending splits and keeps the row aligned (VCA347)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.210/app.asar",
-    "sha256": "2a6cd08fa8164801b615f9f456499588be79ae2f90c960981a27be9e341042da",
-    "bytes": 84103911
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.211/app.asar",
+    "sha256": "73d59a2ed5a7e9c0766a16cccbc73650507c273699352ed26279faefee5415a1",
+    "bytes": 84112608
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
