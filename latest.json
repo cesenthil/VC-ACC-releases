@@ -1,11 +1,11 @@
 {
-  "version": "0.1.209",
-  "notes": "Duplicate invoice blocks Save properly; changing the seller resets the form (VCA343)",
+  "version": "0.1.210",
+  "notes": "Duplicate invoice asks in a modal at seller-pick (VCA344); Cash Sales Diff flags unposted splits (VCA345)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.209/app.asar",
-    "sha256": "1b4e56207ad48fb9eb5dbb62a267e2e0b76efb60364d12aeb93fe6c362c7760a",
-    "bytes": 84093190
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.210/app.asar",
+    "sha256": "2a6cd08fa8164801b615f9f456499588be79ae2f90c960981a27be9e341042da",
+    "bytes": 84103911
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
