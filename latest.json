@@ -1,11 +1,11 @@
 {
-  "version": "0.1.208",
-  "notes": "Invoice entry: lines locked until a seller is picked, Gate/Kooli asked at seller-pick (VCA341); one screen to cancel or destroy a bill number (VCA342)",
+  "version": "0.1.209",
+  "notes": "Duplicate invoice blocks Save properly; changing the seller resets the form (VCA343)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.208/app.asar",
-    "sha256": "a66cfe6d8ee9edabce9fb5ca34ccb681820b04ea5b2bb37dc7274e6a1e411751",
-    "bytes": 84083499
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.209/app.asar",
+    "sha256": "1b4e56207ad48fb9eb5dbb62a267e2e0b76efb60364d12aeb93fe6c362c7760a",
+    "bytes": 84093190
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
