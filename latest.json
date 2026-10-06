@@ -1,11 +1,11 @@
 {
-  "version": "0.1.212",
-  "notes": "Due-list qty: the kattu always reads smaller than the bag (VCA346 follow-up)",
+  "version": "0.1.213",
+  "notes": "Print Due List: nothing packs under a Carry Over stamp (VCA348)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.212/app.asar",
-    "sha256": "7f93a49c1c5faa1eadaeaa8a576c11f586b1d09731e8d02bbf1a70451eb0812c",
-    "bytes": 84113425
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.213/app.asar",
+    "sha256": "80836309b9a534f6f79ac2c3084997cd9ab03bbd19aea3f0442300d248973b3f",
+    "bytes": 84116052
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
