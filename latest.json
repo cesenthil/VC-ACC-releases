@@ -1,11 +1,11 @@
 {
-  "version": "0.1.214",
-  "notes": "P&L Year view runs the Indian financial year, April to March (VCA349)",
+  "version": "0.1.215",
+  "notes": "New Balance Sheet screen — the year's position, Apr to Mar (VCA350)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.214/app.asar",
-    "sha256": "6e9aa1f39e083e1a568e0bef4a0cebaf874446f4dbf965d00b5ce38a905066ac",
-    "bytes": 84119516
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.215/app.asar",
+    "sha256": "75563f217a5b4d6cccd753c83b221c239211509123a1bad8df3c145da427d9ee",
+    "bytes": 84186494
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
