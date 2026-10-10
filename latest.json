@@ -1,11 +1,11 @@
 {
-  "version": "0.1.216",
-  "notes": "Mark Paid: clearer header, usable Phone#, payment modes lock each other, suspense note reworded (VCA351)",
+  "version": "0.1.217",
+  "notes": "Mark Paid: Bill Amount centred and in blue (VCA351 follow-up)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.216/app.asar",
-    "sha256": "c0919c15fcc458a481cfbb83f881e0b25dc614769244be0a296925abf70d1db8",
-    "bytes": 84197060
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.217/app.asar",
+    "sha256": "80af0744d03f54aa9ff31bb0b03b71d45f907706ffa0097bb65725fc28657583",
+    "bytes": 84197695
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
