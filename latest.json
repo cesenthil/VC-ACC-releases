@@ -1,11 +1,11 @@
 {
-  "version": "0.1.219",
-  "notes": "Mark Paid header: chip sized and centred, rupee sign no longer inherits the label style (VCA353)",
+  "version": "0.1.220",
+  "notes": "Seller patti: the Mark-Paid note now prints in its own box (VCA354)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.219/app.asar",
-    "sha256": "b279c9879c99dbd7e58fd7630a08f1627a3c3c80c928972625579810e4962e11",
-    "bytes": 84209333
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.220/app.asar",
+    "sha256": "79ccfdb1985134e3aefc33ca25f2554a7c260275eec4bee8dd522f12e8eda154",
+    "bytes": 84214402
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
