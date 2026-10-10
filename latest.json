@@ -1,11 +1,11 @@
 {
-  "version": "0.1.218",
-  "notes": "Copy Image (WhatsApp) on the receipt preview; patti expenses total labelled; Bill Amount chip (VCA352)",
+  "version": "0.1.219",
+  "notes": "Mark Paid header: chip sized and centred, rupee sign no longer inherits the label style (VCA353)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.218/app.asar",
-    "sha256": "deb309088736310411ab8e8a095c44cc52d08e84e0d31df2e0c692c4e1964d6f",
-    "bytes": 84206918
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.219/app.asar",
+    "sha256": "b279c9879c99dbd7e58fd7630a08f1627a3c3c80c928972625579810e4962e11",
+    "bytes": 84209333
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
