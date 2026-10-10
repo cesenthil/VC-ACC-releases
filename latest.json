@@ -1,11 +1,11 @@
 {
-  "version": "0.1.217",
-  "notes": "Mark Paid: Bill Amount centred and in blue (VCA351 follow-up)",
+  "version": "0.1.218",
+  "notes": "Copy Image (WhatsApp) on the receipt preview; patti expenses total labelled; Bill Amount chip (VCA352)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.217/app.asar",
-    "sha256": "80af0744d03f54aa9ff31bb0b03b71d45f907706ffa0097bb65725fc28657583",
-    "bytes": 84197695
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.218/app.asar",
+    "sha256": "deb309088736310411ab8e8a095c44cc52d08e84e0d31df2e0c692c4e1964d6f",
+    "bytes": 84206918
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
