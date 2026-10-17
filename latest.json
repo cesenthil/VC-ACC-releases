@@ -1,11 +1,11 @@
 {
-  "version": "0.1.221",
-  "notes": "Fix: an invoice saved without Gate/Kooli can be edited again (VCA356)",
+  "version": "0.1.222",
+  "notes": "Update to v0.1.222",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.221/app.asar",
-    "sha256": "f42140435bd19a6156f50e3f7120f0ab74b87f60707bef1c07f9a9ddf3bc04df",
-    "bytes": 84220002
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.222/app.asar",
+    "sha256": "a14cabe90b6a429a7046052581ff67069cdd91d89d3b7a7bb7074642c34cc06d",
+    "bytes": 84228945
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
