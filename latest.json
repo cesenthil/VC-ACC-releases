@@ -1,11 +1,11 @@
 {
-  "version": "0.1.220",
-  "notes": "Seller patti: the Mark-Paid note now prints in its own box (VCA354)",
+  "version": "0.1.221",
+  "notes": "Fix: an invoice saved without Gate/Kooli can be edited again (VCA356)",
   "electronMajor": 44,
   "asar": {
-    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.220/app.asar",
-    "sha256": "79ccfdb1985134e3aefc33ca25f2554a7c260275eec4bee8dd522f12e8eda154",
-    "bytes": 84214402
+    "url": "https://github.com/cesenthil/VC-ACC-releases/releases/download/v0.1.221/app.asar",
+    "sha256": "f42140435bd19a6156f50e3f7120f0ab74b87f60707bef1c07f9a9ddf3bc04df",
+    "bytes": 84220002
   },
   "fullBuildUrl": "https://github.com/cesenthil/VC-ACC-releases/releases/download/full/VC-and-Co.zip"
 }
